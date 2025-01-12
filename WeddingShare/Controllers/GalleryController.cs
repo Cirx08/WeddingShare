@@ -190,8 +190,8 @@ namespace WeddingShare.Controllers
                             try
                             {
                                 var extension = Path.GetExtension(file.FileName);
-                                var maxFilesSize = _config.GetOrDefault("Settings:Max_File_Size_Mb", 10) * 1000000;
-                                var maxGallerySize = _gallery.GetConfig(galleryId, "Max_Gallery_Size_Mb", 1024) * 1000000;
+                                var maxFilesSize = _config.GetOrDefault("Settings:Max_File_Size_Mb", 10) * 1000000L;
+                                var maxGallerySize = _gallery.GetConfig(galleryId, "Max_Gallery_Size_Mb", 1024) * 1000000L;
                                 var galleryPath = Path.Combine(UploadsDirectory, gallery.Name);
 
                                 var allowedFileTypes = _config.GetOrDefault("Settings:Allowed_File_Types", ".jpg,.jpeg,.png,.mp4,.mov").Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
