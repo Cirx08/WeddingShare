@@ -136,19 +136,26 @@ function getOrientation(item) {
             });
 
             $('.media-viewer-item .media-viewer-play').each(function () {
-                let preview = $(this).parent();
+                let element = $(this);
+                let preview = element.parent();
                 let thumbnail = $(preview.find('img')[0]);
-                let size = $(this).height();
 
-                preview.css('height', `${thumbnail.outerHeight()}px`);
+                let adjustSizeFn = function () {
+                    let size = element.height();
+                    preview.css('height', `${thumbnail.outerHeight()}px`);
 
-                $(this).css({
-                    'top': `-${(thumbnail.outerHeight() / 2)}px`,
-                    'left': `${(thumbnail.outerWidth() / 2)}px`,
-                    'margin-top': `-${size / 2}px`,
-                    'margin-left': `-${size / 2}px`
-                });
-                $(this).fadeTo(200, 1.0);
+                    element.css({
+                        'top': `-${(thumbnail.outerHeight() / 2)}px`,
+                        'left': `${(thumbnail.outerWidth() / 2)}px`,
+                        'margin-top': `-${size / 2}px`,
+                        'margin-left': `-${size / 2}px`
+                    });
+                    element.fadeTo(200, 1.0);
+                }
+
+                thumbnail.on('load', adjustSizeFn);
+                element.on('load', adjustSizeFn);
+                adjustSizeFn();
             });
         }, 200);
 
