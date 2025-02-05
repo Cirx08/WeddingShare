@@ -292,7 +292,7 @@
     <value>Galería</value>
   </data>
   <data name="Uploader" xml:space="preserve">
-    <value>Uploader</value>
+    <value>Subido por</value>
   </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Si este problema persiste, contacta al administrador web</value>
