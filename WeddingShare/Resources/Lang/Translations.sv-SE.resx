@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>Misslyckades att ladda upp filen</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>Dubblettfil upptäcktes</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>Det begärda galleriet hittades inte eller finns inte</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>Det gick inte att ladda upp bilder</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>Den angivna åtkomstnyckeln var ogiltig</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>Filtypen är ogiltig</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>Ogiltigt galleri-id</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>Ogiltig gallerinyckel</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>En begäran gjordes med en ogiltig hemlig nyckel</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>Max filstorlek är</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>Galleriet är fullt och har överskridit maxstorleken på</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>Nya bilder väntar på granskning</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>Inga filer upptäcktes för uppladdning</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>Det gick inte att spara bilden i galleriet</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>Det gick inte att ladda ned galleriet</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>Du är inte behörig att ladda ner det här galleriet</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>Det gick inte att skapa galleriet</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>Det gick inte att ta bort galleriet</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>Det gick inte att uppdatera galleriet</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>Det gick inte att exportera data</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>Det gick inte att hitta filen</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>Det gick inte att importera data</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>Det gick inte att granska objektet</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>Det gick inte att rensa gallerier</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>Det gick inte att rensa galleriet</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>Gallerinamnet finns redan</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>Det gick inte att logga in användaren</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>Gallerinamnet får inte vara tomt</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>Det gick inte att hämta väntande uppladdningar</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>Okänd granskningsåtgärd</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Åtgärder</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>Ange användarnamn för kontot.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>Admininstratör</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>Vänligen ange kontolösenord.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Godkänna</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Godkänna</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>Tillgängliga Gallerier</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Skapa</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Nyckel</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Länk</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>Inga gallerier har skapats ännu</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>Inga uppladdningar väntar på granskning</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>I avvaktan på</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>Väntande uppladdningar</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Avvisa</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Döpa om</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totalt</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>Uppladdad av</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Recension</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importera</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportera</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galleri</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>Uppladdare</value>
+  </data>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>Kontakta webbadministratören om problemet kvarstår</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>Hoppsan, det verkar som om ett oväntat fel inträffade...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>Det verkar som att du inte har behörighet att visa den sidan...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>Access Denied</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>Den angivna hemliga nyckeln var felaktig</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>Ogiltig hemlig nyckel</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>Det angivna galleriet finns inte och du har inte behörighet att skapa det</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>Åtkomst nekad</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>Dela kod</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sortera</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>Det finns för närvarande inga delade minnen, varför laddar du inte upp dina ovan!</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>Det finns för närvarande inga delade minnen</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>Skanna QR-koden med din telefon för att dela dina bilder</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>Gallerinyckel</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>Vänligen ange den hemliga nyckeln.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>bröllopsdag</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>Gallerinamn</value>
+  </data>
+  <data name="Gallery_Name_Help" xml:space="preserve">
+    <value>Ange namnet på det galleri du vill besöka.</value>
+  </data>
+  <data name="Gallery_Name_Placeholder" xml:space="preserve">
+    <value>mitt-brollopsgalleri</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>Galleriväljare</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Generera</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Utloggning</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Besök</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>Klicka här för att välja filer att ladda upp</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>Dra &amp; Släpp filer här för att ladda upp dem till galleriet</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>Ladda upp media</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Rensa</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>Är du säker på att du vill rengöra det här galleriet?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>Är du säker på att du vill rensa det här galleriet?</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>Är du säker på att du vill ta bort det här galleriet?</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>Är du säker på att du vill radera alla gallerier?</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>Ett fel uppstod när startsidan laddades</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>Det gick inte att ställa in användar identitets session - Namn</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>Spara QR</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>Försökte skapa videominiatyrer men FFMPEG har inte slutfört nedladdningen ännu. Om detta är en nyinstallation, vänta tills nedladdningen är klar och missade miniatyrer kommer att genereras av bakgrundsskannern</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>Det gick inte att ladda ner FFMPEG till sökvägen</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>Det gick inte att konfigurera 2FA</value>
+  </data>
+</root>
