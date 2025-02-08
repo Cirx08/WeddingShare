@@ -32,7 +32,7 @@
             "Identity_Check_Name": "Nombre",
             "Identity_Check_Hint": "Dinos quién eres para saber quién subió los recuerdos.",
             "Identity_Check_Placeholder": "Ej.: Juan Pérez, Pepe, Tío Roberto",
-            "Identity_Check_Tell_Us": "Dinos",
+            "Identity_Check_Tell_Us": "Confirmar",
             "Identity_Check_Stay_Anonymous": "Permanecer anónimo",
             "Identity_Check_Change_Identity": "Cambiar identidad",
             "Identity_Check_Change": "Cambiar",
