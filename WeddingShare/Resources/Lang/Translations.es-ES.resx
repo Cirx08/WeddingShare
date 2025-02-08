@@ -227,7 +227,7 @@
     <value>Galerías disponibles</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>Create</value>
+    <value>Crear</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Eliminar</value>
@@ -350,7 +350,7 @@
     <value>Generar</value>
   </data>
   <data name="Logout" xml:space="preserve">
-    <value>Logout</value>
+    <value>Cerrar sesión</value>
   </data>
   <data name="Visit" xml:space="preserve">
     <value>Visitar</value>
