@@ -30,7 +30,7 @@
             "Login_Failed": "Inloggning misslyckades",
             "Identity_Check": "Identitetskontroll",
             "Identity_Check_Name": "Namn",
-            "Identity_Check_Hint": "Berätta vem du är så att vi vet vem som laddat upp minnen."
+            "Identity_Check_Hint": "Berätta vem du är så att vi vet vem som laddat upp minnen.",
             "Identity_Check_Placeholder": "T.ex. Jane Doe, Jimmy, farbror Bob",
             "Identity_Check_Tell_Us": "Berätta för oss",
             "Identity_Check_Stay_Anonymous": "Var anonym",
