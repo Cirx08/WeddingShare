@@ -62,7 +62,7 @@
     <value>Si ce problème persiste, veuillez contacter l'administrateur web</value>
   </data>
   <data name="400_Error_Title" xml:space="preserve">
-    <value>Opps, on dirait qu'une erreur inattendue s'est produite...</value>
+    <value>Oups, on dirait qu'une erreur inattendue s'est produite...</value>
   </data>
   <data name="401_Error_Message" xml:space="preserve">
     <value>On dirait que vous n'êtes pas autorisé à voir cette page...</value>
@@ -71,13 +71,13 @@
     <value>Accès refusé</value>
   </data>
   <data name="402_Error_Message" xml:space="preserve">
-    <value>La clé secrète fournie était incorrecte</value>
+    <value>La clé secrète fournie est incorrecte</value>
   </data>
   <data name="402_Error_Title" xml:space="preserve">
     <value>Clé secrète non valide</value>
   </data>
   <data name="403_Error_Message" xml:space="preserve">
-    <value>La gellerie spécifiée n'existe pas et vous n'avez pas la permission de la créer</value>
+    <value>La galerie spécifiée n'existe pas et vous n'avez pas la permission de la créer</value>
   </data>
   <data name="403_Error_Title" xml:space="preserve">
     <value>Accès refusé</value>
@@ -98,10 +98,10 @@
     <value>Galeries disponibles</value>
   </data>
   <data name="Clean" xml:space="preserve">
-    <value>Nettoyer</value>
+    <value>Vider</value>
   </data>
   <data name="Clean_Confirmation" xml:space="preserve">
-    <value>Voulez-vous vraiment nettoyer cette galerie ?</value>
+    <value>Voulez-vous vraiment vider cette galerie ?</value>
   </data>
   <data name="Click_To_Upload" xml:space="preserve">
     <value>Cliquez ici pour sélectionner les fichiers à télécharger</value>
@@ -125,10 +125,10 @@
     <value>Vous n'êtes pas autorisé à télécharger cette galerie</value>
   </data>
   <data name="Drag_And_Drop" xml:space="preserve">
-    <value>Faites glisser</value>
+    <value>Glissez et déposez</value>
   </data>
   <data name="Duplicate_Item_Detected" xml:space="preserve">
-    <value>Dupliquer le fichier détecté</value>
+    <value>Un doublon a été détecté pour ce fichier</value>
   </data>
   <data name="Export" xml:space="preserve">
     <value>Exportation</value>
@@ -164,7 +164,7 @@
     <value>Impossible d'importer les données</value>
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
-    <value>Échec de l ' examen</value>
+    <value>Échec de la révision du média</value>
   </data>
   <data name="Failed_Wipe_Galleries" xml:space="preserve">
     <value>Échec des galeries</value>
@@ -197,13 +197,13 @@
     <value>Il n'y a actuellement aucun souvenir partagé, pourquoi ne pas télécharger le vôtre ci-dessus!</value>
   </data>
   <data name="Gallery_Full" xml:space="preserve">
-    <value>Galerie est pleine et a dépassé la taille maximale de</value>
+    <value>Galerie est pleine et a dépassé la taille maximale autorisée</value>
   </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Clé de la galerie</value>
   </data>
   <data name="Gallery_Key_Help" xml:space="preserve">
-    <value>Veuillez entrer la clé secrète.</value>
+    <value>Veuillez entrer la clé secrète</value>
   </data>
   <data name="Gallery_Key_Placeholder" xml:space="preserve">
     <value>le jour du mariage</value>
@@ -215,10 +215,10 @@
     <value>Nom de la galerie</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
-    <value>Nom de galerie existe déjà</value>
+    <value>Le nom de galerie existe déjà</value>
   </data>
   <data name="Gallery_Name_Help" xml:space="preserve">
-    <value>Veuillez saisir le nom de la galerie que vous souhaitez visiter.</value>
+    <value>Veuillez saisir le nom de la galerie que vous souhaitez visiter</value>
   </data>
   <data name="Gallery_Name_Placeholder" xml:space="preserve">
     <value>mon-mariage-gallery</value>
@@ -242,13 +242,13 @@
     <value>Importation</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
-    <value>Le jeton d'accès fourni était invalide</value>
+    <value>Le jeton d'accès fourni est invalide</value>
   </data>
   <data name="Invalid_File_Type" xml:space="preserve">
     <value>Le type de fichier est invalide</value>
   </data>
   <data name="Invalid_Gallery_Id" xml:space="preserve">
-    <value>Galerie non valide Id</value>
+    <value>ID de galerie non valide</value>
   </data>
   <data name="Invalid_Gallery_Key" xml:space="preserve">
     <value>Clé de galerie non valide</value>
@@ -266,16 +266,16 @@
     <value>Connexion</value>
   </data>
   <data name="Login_Failed" xml:space="preserve">
-    <value>Impossible de connecter l'utilisateur</value>
+    <value>Connexion impossible</value>
   </data>
   <data name="Login_Password_Help" xml:space="preserve">
-    <value>Veuillez saisir le mot de passe du compte.</value>
+    <value>Veuillez saisir le mot de passe du compte</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Mot de passe</value>
   </data>
   <data name="Login_Username_Help" xml:space="preserve">
-    <value>Veuillez saisir le nom d'utilisateur du compte.</value>
+    <value>Veuillez saisir le nom d'utilisateur du compte</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Administrateur</value>
@@ -296,7 +296,7 @@
     <value>Le nom de la galerie ne peut pas être vide</value>
   </data>
   <data name="New_Items_Pending_Review" xml:space="preserve">
-    <value>Nouveaux points en suspens</value>
+    <value>Nouveaux éléments en attente de révision</value>
   </data>
   <data name="No_Files_For_Upload" xml:space="preserve">
     <value>Aucun fichier n'a été détecté pour le téléchargement</value>
@@ -359,10 +359,10 @@
     <value>Chargeur</value>
   </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
-    <value>Le mot de passe fourni et le mot de passe confrim ne correspondent pas</value>
+    <value>Les mots de passes ne correspondent pas</value>
   </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
-    <value>Ajouter un utilisateur avec le même nom existe déjà</value>
+    <value>Le nom d'utilisateur existe déjà</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Nom d'utilisateur</value>
@@ -380,12 +380,12 @@
     <value>Visite</value>
   </data>
   <data name="Wipe" xml:space="preserve">
-    <value>Essuie</value>
+    <value>Effacer</value>
   </data>
   <data name="Wipe_All_Confirmation" xml:space="preserve">
-    <value>Tu es sûr de vouloir essuyer toutes les galeries ?</value>
+    <value>Etes-vous sûr de vouloir effacer toutes les galeries ?</value>
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
-    <value>Tu es sûr de vouloir essuyer cette galerie ?</value>
+    <value>Etes-vous sûr de vouloir effacer cette galerie ?</value>
   </data>
 </root>
