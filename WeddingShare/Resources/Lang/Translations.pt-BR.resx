@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="400_Error_Message" xml:space="preserve">
-    <value>Se este problema persistir, entre em contato com o administrador da web</value>
+    <value>Se este problema persistir, entre em contato com o administrador</value>
   </data>
   <data name="400_Error_Title" xml:space="preserve">
-    <value>Opps, parece que ocorreu um erro inesperado...</value>
+    <value>Ops, parece que ocorreu um erro inesperado...</value>
   </data>
   <data name="401_Error_Message" xml:space="preserve">
     <value>Parece que você não está autorizado a ver essa página...</value>
@@ -77,13 +77,13 @@
     <value>Chave secreta inválida</value>
   </data>
   <data name="403_Error_Message" xml:space="preserve">
-    <value>O gellery especificado não existe e você não tem permissões para criá-lo</value>
+    <value>A galeraia especificada não existe e você não tem permissões para criá-lo</value>
   </data>
   <data name="403_Error_Title" xml:space="preserve">
     <value>Acesso negado</value>
   </data>
   <data name="Actions" xml:space="preserve">
-    <value>Acções</value>
+    <value>Ações</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Adicionar</value>
@@ -98,13 +98,13 @@
     <value>Galerias disponíveis</value>
   </data>
   <data name="Clean" xml:space="preserve">
-    <value>Limpo</value>
+    <value>Limpar</value>
   </data>
   <data name="Clean_Confirmation" xml:space="preserve">
-    <value>Tens a certeza que queres limpar esta galeria?</value>
+    <value>Tem certeza que quer limpar esta galeria?</value>
   </data>
   <data name="Click_To_Upload" xml:space="preserve">
-    <value>Clique aqui para selecionar arquivos para fazer upload</value>
+    <value>Clique aqui para selecionar arquivos a enviar</value>
   </data>
   <data name="Close" xml:space="preserve">
     <value>Fechar</value>
@@ -119,7 +119,7 @@
     <value>Excluir</value>
   </data>
   <data name="Delete_Confirmation" xml:space="preserve">
-    <value>Tem certeza de que deseja excluir esta galeria?</value>
+    <value>Tem certeza de que quer excluir esta galeria?</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Você não está autorizado a baixar esta galeria</value>
@@ -131,55 +131,55 @@
     <value>Arquivo duplicado detectado</value>
   </data>
   <data name="Export" xml:space="preserve">
-    <value>Exportação</value>
+    <value>Exportar</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
-    <value>Falhado para criar galeria</value>
+    <value>Falha ao criar galeria</value>
   </data>
   <data name="Failed_Add_User" xml:space="preserve">
-    <value>Falhado para criar usuário</value>
+    <value>Falha ao criar usuário</value>
   </data>
   <data name="Failed_Delete_Gallery" xml:space="preserve">
-    <value>Falhado para excluir galeria</value>
+    <value>Falha ao excluir galeria</value>
   </data>
   <data name="Failed_Delete_User" xml:space="preserve">
-    <value>Falhado para excluir o usuário</value>
+    <value>Falha ao excluir o usuário</value>
   </data>
   <data name="Failed_Download_Gallery" xml:space="preserve">
-    <value>Falhado para baixar galeria</value>
+    <value>Falha ao baixar galeria</value>
   </data>
   <data name="Failed_Edit_Gallery" xml:space="preserve">
-    <value>Falhado para atualizar galeria</value>
+    <value>Falha ao atualizar galeria</value>
   </data>
   <data name="Failed_Edit_User" xml:space="preserve">
-    <value>Falhado para atualizar o usuário</value>
+    <value>Falha ao atualizar o usuário</value>
   </data>
   <data name="Failed_Export" xml:space="preserve">
-    <value>Falhados aos dados de exportação</value>
+    <value>falha ao tentar exportar</value>
   </data>
   <data name="Failed_Finding_File" xml:space="preserve">
-    <value>Falhado em encontrar arquivo</value>
+    <value>Falha ao encontrar arquivo</value>
   </data>
   <data name="Failed_Import" xml:space="preserve">
-    <value>Falhados em importar dados</value>
+    <value>falha ao importar dados</value>
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
-    <value>Falhado para rever o item</value>
+    <value>Falha ao revisar o item</value>
   </data>
   <data name="Failed_Wipe_Galleries" xml:space="preserve">
-    <value>Falhado para limpar galerias</value>
+    <value>Falha ao limpar galerias</value>
   </data>
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
-    <value>Falhado para limpar a galeria</value>
+    <value>Falha ao limpar a galeria</value>
   </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
-    <value>Falhado para baixar FFMPEG para caminho</value>
+    <value>Falha ao baixar FFMPEG</value>
   </data>
   <data name="FFMPEG_Downloading" xml:space="preserve">
-    <value>Tentado para gerar miniatura de vídeo, mas FFMPEG ainda não completou download. Se esta é uma instalação fresca, por favor, aguarde que o download para miniaturas completas e perdidas será gerado pelo scanner de fundo</value>
+    <value>Tentei gerar miniatura de vídeo, mas o download do FFMPEG ainda não terminou. Se esta é uma instalação nova, por favor, aguarde. O download irá terminar e as miniaturas serão geradas na sequencia.</value>
   </data>
   <data name="File_Upload_Failed" xml:space="preserve">
-    <value>Falhado para carregar arquivo</value>
+    <value>Falha ao carregar arquivo</value>
   </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galerias</value>
@@ -191,37 +191,37 @@
     <value>A galeria solicitada não foi encontrada ou não existe</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
-    <value>Atualmente não existem memórias compartilhadas</value>
+    <value>Galeria está vazia</value>
   </data>
   <data name="Gallery_Empty_Upload" xml:space="preserve">
-    <value>Atualmente não há memórias compartilhadas, por que você não carrega seu acima!</value>
+    <value>A galeria ainda está vazia. Porque voce não envia as primeiras imagens?</value>
   </data>
   <data name="Gallery_Full" xml:space="preserve">
-    <value>Galeria está cheia e excedeu o tamanho máximo de</value>
+    <value>A galeria está cheia e excedeu o tamanho máximo de</value>
   </data>
   <data name="Gallery_Key" xml:space="preserve">
-    <value>Galeria chave</value>
+    <value>Chave da galeria</value>
   </data>
   <data name="Gallery_Key_Help" xml:space="preserve">
     <value>Digite a chave secreta.</value>
   </data>
   <data name="Gallery_Key_Placeholder" xml:space="preserve">
-    <value>dia de casamento</value>
+    <value>dia do casamento</value>
   </data>
   <data name="Gallery_List_Failed" xml:space="preserve">
-    <value>Falhado para obter lista de galerias</value>
+    <value>falha ao obter lista de galerias</value>
   </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Nome da galeria</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
-    <value>Nome da galeria já existe</value>
+    <value>Este nome de galeria já existe</value>
   </data>
   <data name="Gallery_Name_Help" xml:space="preserve">
     <value>Digite o nome da galeria que deseja visitar.</value>
   </data>
   <data name="Gallery_Name_Placeholder" xml:space="preserve">
-    <value>meu casamento-gallery</value>
+    <value>meu casamento</value>
   </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Seletor de galeria</value>
@@ -233,13 +233,13 @@
     <value>Um erro ocorreu ao carregar a página inicial</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
-    <value>Falhado para definir sessão de identidade do usuário - Nome</value>
+    <value>Falha ao definir sessão de identidade do usuário - Nome</value>
   </data>
   <data name="Image_Upload_Failed" xml:space="preserve">
-    <value>Falhado para carregar imagens</value>
+    <value>Falha ao carregar imagens</value>
   </data>
   <data name="Import" xml:space="preserve">
-    <value>Importação</value>
+    <value>Importar</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>O token de acesso fornecido foi inválido</value>
@@ -248,7 +248,7 @@
     <value>Tipo de arquivo é inválido</value>
   </data>
   <data name="Invalid_Gallery_Id" xml:space="preserve">
-    <value>Galeria inválida I</value>
+    <value>ID de galeria inválida</value>
   </data>
   <data name="Invalid_Gallery_Key" xml:space="preserve">
     <value>Chave de galeria inválida</value>
@@ -257,7 +257,7 @@
     <value>Um pedido foi feito usando uma chave secreta inválida</value>
   </data>
   <data name="Key" xml:space="preserve">
-    <value>Chaveiro</value>
+    <value>Chave</value>
   </data>
   <data name="Link" xml:space="preserve">
     <value>Link</value>
@@ -266,7 +266,7 @@
     <value>Login</value>
   </data>
   <data name="Login_Failed" xml:space="preserve">
-    <value>Falhado para registrar o usuário em</value>
+    <value>Falha ao registrar o usuário em</value>
   </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Digite a senha da conta.</value>
@@ -287,7 +287,7 @@
     <value>Tamanho máximo do arquivo é</value>
   </data>
   <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
-    <value>Falhado para configurar 2FA</value>
+    <value>Falha ao configurar 2FA</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>Nome</value>
@@ -296,7 +296,7 @@
     <value>Nome da galeria não pode ser vazio</value>
   </data>
   <data name="New_Items_Pending_Review" xml:space="preserve">
-    <value>Novos itens Pending Review</value>
+    <value>Novos itens pendentes de revisão</value>
   </data>
   <data name="No_Files_For_Upload" xml:space="preserve">
     <value>Nenhum arquivo foi detectado para upload</value>
@@ -314,22 +314,22 @@
     <value>Carregamentos pendentes</value>
   </data>
   <data name="Pending_Uploads_Failed" xml:space="preserve">
-    <value>Falhado para obter uploads pendentes</value>
+    <value>Falha ao obter uploads pendentes</value>
   </data>
   <data name="Reject" xml:space="preserve">
-    <value>Rejeição</value>
+    <value>Rejeitar</value>
   </data>
   <data name="Rename" xml:space="preserve">
     <value>Renomear</value>
   </data>
   <data name="Review" xml:space="preserve">
-    <value>Revisão</value>
+    <value>Revisar</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
-    <value>Salvar QR</value>
+    <value>Salvar QR Code</value>
   </data>
   <data name="Save_To_Gallery_Failed" xml:space="preserve">
-    <value>Falhado para salvar a imagem para galeria</value>
+    <value>Falha ao salvar a imagem para galeria</value>
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Digitalize o código QR com seu telefone para compartilhar suas imagens</value>
@@ -338,7 +338,7 @@
     <value>Compartilhar Código</value>
   </data>
   <data name="Sort" xml:space="preserve">
-    <value>Tipo</value>
+    <value>Ordenar</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Total</value>
@@ -347,45 +347,45 @@
     <value>Ação de revisão desconhecida</value>
   </data>
   <data name="Update" xml:space="preserve">
-    <value>Atualização</value>
+    <value>Atualizar</value>
   </data>
   <data name="Upload_Media" xml:space="preserve">
-    <value>Fazer upload de mídia</value>
+    <value>Enviar imagens</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
-    <value>Carregado por</value>
+    <value>Enviado por</value>
   </data>
   <data name="Uploader" xml:space="preserve">
-    <value>Carregador</value>
+    <value>Remetente</value>
   </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
-    <value>A senha fornecida e senha confrim não correspondem</value>
+    <value>As senhas não correspondem</value>
   </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Adicionar usuário com o mesmo nome já existe</value>
   </data>
   <data name="Username" xml:space="preserve">
-    <value>Nome de utilizador</value>
+    <value>Nome de usuário</value>
   </data>
   <data name="Users" xml:space="preserve">
     <value>Usuários</value>
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
-    <value>Falhado para obter lista de usuários</value>
+    <value>Falha ao obter lista de usuários</value>
   </data>
   <data name="View" xml:space="preserve">
-    <value>Visualização</value>
+    <value>Visualizar</value>
   </data>
   <data name="Visit" xml:space="preserve">
-    <value>Visita</value>
+    <value>Visitar</value>
   </data>
   <data name="Wipe" xml:space="preserve">
-    <value>Espécie</value>
+    <value>Limpar</value>
   </data>
   <data name="Wipe_All_Confirmation" xml:space="preserve">
-    <value>Tens a certeza que queres limpar todas as galerias?</value>
+    <value>Tem certeza que quer limpar todas as galerias?</value>
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
-    <value>Tens a certeza que queres limpar esta galeria?</value>
+    <value>Tem certeza que quer limpar esta galeria?</value>
   </data>
 </root>
