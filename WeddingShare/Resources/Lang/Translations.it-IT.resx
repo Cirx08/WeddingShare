@@ -317,25 +317,25 @@
     <value>Finanziamenti</value>
   </data>
   <data name="Pending_Uploads" xml:space="preserve">
-    <value>Caricamento in corso</value>
+    <value>Caricamenti in sospeso</value>
   </data>
   <data name="Pending_Uploads_Failed" xml:space="preserve">
-    <value>Non riuscito a ottenere caricamenti in sospeso</value>
+    <value>Caricamenti in sospeso non riusciti</value>
   </data>
   <data name="Reject" xml:space="preserve">
-    <value>Rifiuti</value>
+    <value>Rifiuta</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>Nome</value>
+    <value>Rinomina</value>
   </data>
   <data name="Review" xml:space="preserve">
     <value>Recensione</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
-    <value>Salvare il QR</value>
+    <value>Salva codice QR</value>
   </data>
   <data name="Save_To_Gallery_Failed" xml:space="preserve">
-    <value>Non riuscito a salvare l'immagine alla galleria</value>
+    <value>Salvataggio nella galleria non riuscito</value>
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Scansiona il codice QR con il telefono per condividere le tue immagini</value>
@@ -365,10 +365,10 @@
     <value>Caricatore</value>
   </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
-    <value>La password fornita e la password confrim non corrispondono</value>
+    <value>Mancata corrispondenza della password utente</value>
   </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
-    <value>Aggiungi utente con lo stesso nome già esiste</value>
+    <value>Il nome utente esiste già</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Nome utente</value>
@@ -386,7 +386,7 @@
     <value>Visita</value>
   </data>
   <data name="Wipe" xml:space="preserve">
-    <value>Wipe</value>
+    <value>Pulire</value>
   </data>
   <data name="Wipe_All_Confirmation" xml:space="preserve">
     <value>Sei sicuro di voler pulire tutte le gallerie?</value>
