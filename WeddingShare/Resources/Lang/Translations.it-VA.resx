@@ -326,13 +326,13 @@
     <value>Rifiuti</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>Nome</value>
+    <value>Rinomina</value>
   </data>
   <data name="Review" xml:space="preserve">
     <value>Recensione</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
-    <value>Salvare il QR</value>
+    <value>Salvar codice QR</value>
   </data>
   <data name="Save_To_Gallery_Failed" xml:space="preserve">
     <value>Non riuscito a salvare l'immagine alla galleria</value>
@@ -386,7 +386,7 @@
     <value>Visita</value>
   </data>
   <data name="Wipe" xml:space="preserve">
-    <value>Wipe</value>
+    <value>Pulire</value>
   </data>
   <data name="Wipe_All_Confirmation" xml:space="preserve">
     <value>Sei sicuro di voler pulire tutte le gallerie?</value>
