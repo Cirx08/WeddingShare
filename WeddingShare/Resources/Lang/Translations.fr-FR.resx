@@ -98,7 +98,7 @@
     <value>Accepter</value>
   </data>
   <data name="Action" xml:space="preserve">
-    <value>Décision</value>
+    <value>Action</value>
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Actions</value>
@@ -113,7 +113,7 @@
     <value>Approuvé</value>
   </data>
   <data name="Audit" xml:space="preserve">
-    <value>Vérification des comptes</value>
+    <value>Journal des activités</value>
   </data>
   <data name="Audit_BulkApproveReviews" xml:space="preserve">
     <value>En vrac approuvé tous les examens en attente</value>
@@ -167,7 +167,7 @@
     <value>rejeté dans la galerie</value>
   </data>
   <data name="Audit_Limit_Help" xml:space="preserve">
-    <value>Combien de journaux à afficher</value>
+    <value>Nombre de lignes à afficher</value>
   </data>
   <data name="Audit_Limit_Label" xml:space="preserve">
     <value>Limite</value>
@@ -179,7 +179,7 @@
     <value>Attaché</value>
   </data>
   <data name="Audit_Logs" xml:space="preserve">
-    <value>Registres d'audit</value>
+    <value>Historique des activités</value>
   </data>
   <data name="Audit_MultiFactorAdded" xml:space="preserve">
     <value>Ajout de plusieurs facteurs à leur compte</value>
@@ -194,7 +194,7 @@
     <value>Réinitialiser plusieurs facteurs pour l'utilisateur</value>
   </data>
   <data name="Audit_SearchTerm_Help" xml:space="preserve">
-    <value>Filtrer les journaux basés sur un terme de recherche</value>
+    <value>Filtrer l'historique sur base d'un terme</value>
   </data>
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Terme de recherche</value>
@@ -263,7 +263,7 @@
     <value>Impossible d'obtenir des ressources personnalisées</value>
   </data>
   <data name="Custom_Resources_Upload_Help" xml:space="preserve">
-    <value>Veuillez sélectionner un fichier image à télécharger</value>
+    <value>Veuillez sélectionner une image à télécharger</value>
   </data>
   <data name="Custom_Resources_Upload_Label" xml:space="preserve">
     <value>Télécharger la ressource personnalisée</value>
@@ -287,7 +287,7 @@
     <value>Voulez-vous vraiment supprimer cette galerie ?</value>
   </data>
   <data name="Demo_Message" xml:space="preserve">
-    <value>C'est une version démo. Toute la configuration est périodiquement effacée pour assurer une ardoise propre pour les futurs testeurs.</value>
+    <value>Ceci est une version de démonstration. Toute la configuration est régulièrement réinitialisée afin de garantire un environnement propre pour les prochains testeurs.</value>
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Action destructive effectuée</value>
@@ -296,10 +296,10 @@
     <value>Vous n'êtes pas autorisé à télécharger cette galerie</value>
   </data>
   <data name="Drag_And_Drop" xml:space="preserve">
-    <value>Faites glisser</value>
+    <value>Glissez et déposez ici</value>
   </data>
   <data name="Duplicate_Item_Detected" xml:space="preserve">
-    <value>Dupliquer le fichier détecté</value>
+    <value>Doublon détecté</value>
   </data>
   <data name="EmailAddress" xml:space="preserve">
     <value>Adresse électronique</value>
@@ -476,7 +476,7 @@
     <value>Déconnexion</value>
   </data>
   <data name="Manage_Data" xml:space="preserve">
-    <value>Gérer les données</value>
+    <value>Sauvegarder et restaurer</value>
   </data>
   <data name="Max_File_Size" xml:space="preserve">
     <value>La taille maximale du fichier est</value>
@@ -524,7 +524,7 @@
     <value>Rejet</value>
   </data>
   <data name="Release_Version" xml:space="preserve">
-    <value>Version de publication</value>
+    <value>Version de l'application</value>
   </data>
   <data name="Rename" xml:space="preserve">
     <value>Renommer</value>
@@ -533,10 +533,10 @@
     <value>Ressources</value>
   </data>
   <data name="Review" xml:space="preserve">
-    <value>Révision</value>
+    <value>Modération</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
-    <value>Enregistrer le QR</value>
+    <value>Enregistrer le QR code</value>
   </data>
   <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
     <value>Impossible d'enregistrer la ressource personnalisée</value>
@@ -545,7 +545,7 @@
     <value>Impossible d'enregistrer l'image dans la galerie</value>
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
-    <value>Scannez le code QR avec votre téléphone pour partager vos images</value>
+    <value>Scannez le QR code avec votre téléphone pour partager vos images</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Paramètres</value>
@@ -557,16 +557,16 @@
     <value>Combien de connexions échouées avant qu'un utilisateur ne soit bloqué</value>
   </data>
   <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
-    <value>Tentatives de verrouillage</value>
+    <value>Tentatives max de verrouillage</value>
   </data>
   <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
-    <value>Combien de temps doit être bloqué un utilisateur</value>
+    <value>Pendant combien de minutes doit être bloqué l'utilisateur</value>
   </data>
   <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
-    <value>Procès-verbal de verrouillage</value>
+    <value>Bloquer la connexion après trop de tentatives échouées</value>
   </data>
   <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
-    <value>Si l'icône du profil apparaît dans l'en-tête</value>
+    <value>Fait apparaître l'icône du profil dans l'en-tête</value>
   </data>
   <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
     <value>Icône de profil</value>
@@ -1001,13 +1001,13 @@
     <value>Diaporama</value>
   </data>
   <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
-    <value>Combien de temps devrait durer la transition entre les diapositives</value>
+    <value>Durée de la transition entre les images</value>
   </data>
   <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
     <value>Fade</value>
   </data>
   <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
-    <value>Combien de temps en secondes une diapositive devrait-elle apparaître avant de passer à la diapositive suivante</value>
+    <value>Durée en secondes d'une image avant de passer à l'image suivante</value>
   </data>
   <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
     <value>Intervalle</value>
@@ -1019,22 +1019,22 @@
     <value>Limite</value>
   </data>
   <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
-    <value>Si le code QR doit être désactivé à la fin pour les invités à scanner</value>
+    <value>Si le QR code doit être désactivé à la fin pour les invités à scanner</value>
   </data>
   <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
     <value>Inclure la diapositive de partage</value>
   </data>
   <data name="Settings_Smtp" xml:space="preserve">
-    <value>Courriel</value>
+    <value>Adresse électronique</value>
   </data>
   <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
-    <value>Nom de l'expéditeur convivial</value>
+    <value>Nom de l'expéditeur</value>
   </data>
   <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
     <value>Afficher le nom</value>
   </data>
   <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
-    <value>Si des alertes par courriel sont envoyées</value>
+    <value>Activer l'envoi d'emails</value>
   </data>
   <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
     <value>Activé</value>
@@ -1067,7 +1067,7 @@
     <value>Une liste d'adresses email séparées par des virgules</value>
   </data>
   <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
-    <value>Bénéficiaires</value>
+    <value>Destinataires</value>
   </data>
   <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
     <value>Le fournisseur SMTP utilise-t-il SSL</value>
@@ -1118,7 +1118,7 @@
     <value>Supporteurs</value>
   </data>
   <data name="Timestamp" xml:space="preserve">
-    <value>Timbre</value>
+    <value>Date/heure</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Total général</value>
@@ -1166,7 +1166,7 @@
     <value>Avertissement</value>
   </data>
   <data name="Wipe" xml:space="preserve">
-    <value>Essuie</value>
+    <value>Effacer les données</value>
   </data>
   <data name="Wipe_All_Confirmation" xml:space="preserve">
     <value>Tu es sûr de vouloir essuyer toutes les galeries ?</value>
