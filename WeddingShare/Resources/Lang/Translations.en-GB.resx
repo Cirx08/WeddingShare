@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -671,7 +671,7 @@
     <value>There was an issue processing the email verification link</value>
   </data>
   <data name="Registration_Success_Message" xml:space="preserve">
-    <value>You account has been registered successfully and waiting for you to access</value>
+    <value>Your account has been registered successfully and waiting for you to access</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Welcome!</value>
@@ -1340,7 +1340,7 @@
     <value>User</value>
   </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
-    <value>The provided password and confrim password do not match</value>
+    <value>The provided password and confirm password do not match</value>
   </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Add user with the same name already exists</value>
