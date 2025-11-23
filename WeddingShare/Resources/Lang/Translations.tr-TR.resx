@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -59,208 +59,208 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="400_Error_Message" xml:space="preserve">
-    <value>Bu konu devam ederse lütfen web yöneticisiyle iletişime geçin</value>
+    <value>Bu sorun devam ederse lütfen web yöneticisiyle iletişime geçin</value>
   </data>
   <data name="400_Error_Title" xml:space="preserve">
-    <value>Opps, beklenmedik bir hata gibi görünüyor...</value>
+    <value>Oops, beklenmeyen bir hata oluştu...</value>
   </data>
   <data name="401_Error_Message" xml:space="preserve">
-    <value>Bu sayfayı görmek için yetkili olmadığınız gibi görünüyor...</value>
+    <value>Bu sayfayı görüntüleme yetkiniz bulunmuyor...</value>
   </data>
   <data name="401_Error_Title" xml:space="preserve">
-    <value>Access Denied</value>
+    <value>401 Erişim Reddedildi</value>
   </data>
   <data name="402_Error_Message" xml:space="preserve">
-    <value>Sağlanan gizli anahtar yanlıştı</value>
+    <value>Sağlanan gizli anahtar yanlış</value>
   </data>
   <data name="402_Error_Title" xml:space="preserve">
-    <value>Invalid Secret Key</value>
+    <value>Geçersiz Gizli Anahtar</value>
   </data>
   <data name="403_Error_Message" xml:space="preserve">
-    <value>Belirtilen jellery mevcut değildir ve onu oluşturmak için izniniz yoktur</value>
+    <value>Belirtilen galeri mevcut değil ve/veya oluşturma izniniz bulunmuyor</value>
   </data>
   <data name="403_Error_Title" xml:space="preserve">
-    <value>Access Denied</value>
+    <value>403 Erişim Reddedildi</value>
   </data>
   <data name="405_Error_Message" xml:space="preserve">
     <value>Maksimum galeri oluşturma limitine ulaştınız</value>
   </data>
   <data name="405_Error_Title" xml:space="preserve">
-    <value>Limit ulaştı</value>
+    <value>405 Limit Aşıldı</value>
   </data>
   <data name="406_Error_Message" xml:space="preserve">
-    <value>Belirtilen galeri mevcut değildir</value>
+    <value>Belirtilen galeri mevcut değil</value>
   </data>
   <data name="406_Error_Title" xml:space="preserve">
-    <value>Invalid Gallery</value>
+    <value>406 Geçersiz Galeri</value>
   </data>
   <data name="407_Error_Message" xml:space="preserve">
-    <value>Hesabınızı doğrulamaya çalışırken bir sorun vardı. Lütfen doğrulama bağlantının geçerli olmasını sağlayın.</value>
+    <value>Hesabınızı doğrulamaya çalışırken bir sorun oluştu. Lütfen doğrulama bağlantısının geçerli olduğundan emin olun</value>
   </data>
   <data name="407_Error_Title" xml:space="preserve">
-    <value>Invalid Verification Link Link Link Link</value>
+    <value>407 Geçersiz Doğrulama Bağlantısı</value>
   </data>
   <data name="408_Error_Message" xml:space="preserve">
-    <value>Hesap parolanızı sıfırlamaya çalışırken bir sorun vardı. Lütfen doğrulama bağlantının geçerli olmasını sağlayın.</value>
+    <value>Hesap şifrenizi sıfırlamaya çalışırken bir sorun oluştu. Lütfen doğrulama bağlantısının geçerli olduğundan emin olun</value>
   </data>
   <data name="408_Error_Title" xml:space="preserve">
-    <value>Invalid Password reset Link</value>
+    <value>408 Geçersiz Şifre Sıfırlama Bağlantısı</value>
   </data>
   <data name="Accept" xml:space="preserve">
-    <value>Kabul</value>
+    <value>Kabul Et</value>
   </data>
   <data name="Action" xml:space="preserve">
-    <value>Eylem</value>
+    <value>İşlem</value>
   </data>
   <data name="Actions" xml:space="preserve">
-    <value>Eylemler</value>
+    <value>İşlemler</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>Add</value>
+    <value>Ekle</value>
   </data>
   <data name="All" xml:space="preserve">
-    <value>Bütün Bütün Hepsi</value>
+    <value>Tümü</value>
   </data>
   <data name="Approve" xml:space="preserve">
-    <value>Approve</value>
+    <value>Onayla</value>
   </data>
   <data name="Approved" xml:space="preserve">
-    <value>Onaylanmış Onaylanmış Onaylanmış Onay Onay Onaylandı</value>
+    <value>Onaylandı</value>
   </data>
   <data name="Ascending" xml:space="preserve">
-    <value>Ascending</value>
+    <value>Artan</value>
   </data>
   <data name="Audit" xml:space="preserve">
-    <value>Denetim Denetim Denetimi</value>
+    <value>Denetim</value>
   </data>
   <data name="Audit_Account_Registered" xml:space="preserve">
-    <value>Kullanıcı kayıtlı hesabı</value>
+    <value>Kayıtlı Kullanıcı</value>
   </data>
   <data name="Audit_ActivateUser" xml:space="preserve">
-    <value>Aktif kullanıcı</value>
+    <value>Aktif Kullanıcı</value>
   </data>
   <data name="Audit_BulkApproveReviews" xml:space="preserve">
-    <value>Bulk tüm bekleyen yorumları onayladı</value>
+    <value>Bekleyen tüm yorumları onayla</value>
   </data>
   <data name="Audit_BulkRejectReviews" xml:space="preserve">
-    <value>Bulk tüm bekleyen yorumları reddetti</value>
+    <value>Bekleyen tüm yorumları reddet</value>
   </data>
   <data name="Audit_CookieConsentApproved" xml:space="preserve">
-    <value>Bir ziyaretçi kurabiyenin kullanımını onayladı</value>
+    <value>Bir ziyaretçi çerez kullanımını onayladı</value>
   </data>
   <data name="Audit_CreatedGallery" xml:space="preserve">
-    <value>Oluşturulmuş galeri</value>
+    <value>Galeri Oluşturuldu</value>
   </data>
   <data name="Audit_CreatedNewUser" xml:space="preserve">
-    <value>Yeni kullanıcı oluşturun</value>
+    <value>Yeni Kullanıcı Oluşturuldu</value>
   </data>
   <data name="Audit_CustomResourceDeleted" xml:space="preserve">
-    <value>Deleted custom resource</value>
+    <value>Özel Kaynak Silindi</value>
   </data>
   <data name="Audit_CustomResourceUploaded" xml:space="preserve">
-    <value>Yöre özel kaynak</value>
+    <value>Özel Kaynak Yüklendi</value>
   </data>
   <data name="Audit_DeletedGallery" xml:space="preserve">
-    <value>Deleted gallery</value>
+    <value>Galeri Silindi</value>
   </data>
   <data name="Audit_DeletedUser" xml:space="preserve">
-    <value>Deleted user</value>
+    <value>Kullanıcı Silindi</value>
   </data>
   <data name="Audit_Email_Verified" xml:space="preserve">
     <value>Kullanıcı e-posta adresini doğruladı</value>
   </data>
   <data name="Audit_ExportedBackup" xml:space="preserve">
-    <value>Bir yedekleme</value>
+    <value>Yedek Dışa Aktarıldı</value>
   </data>
   <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
     <value>Başarısız giriş denemesi tespit edildi</value>
   </data>
   <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
-    <value>Başarısız giriş girişimleri sıfırlama</value>
+    <value>Başarısız giriş denemeleri sıfırlandı</value>
   </data>
   <data name="Audit_Forgot_Password" xml:space="preserve">
-    <value>Kullanıcı bir parola sıfırlama talep etti</value>
+    <value>Kullanıcı şifre sıfırlama talebinde bulundu</value>
   </data>
   <data name="Audit_FrozeUser" xml:space="preserve">
-    <value>Froze kullanıcı</value>
+    <value>Kullanıcı Askıya Alındı</value>
   </data>
   <data name="Audit_ImportedBackup" xml:space="preserve">
-    <value>Bir yedekleme</value>
+    <value>Yedek İçe Aktarıldı</value>
   </data>
   <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
-    <value>galeride onaylanan</value>
+    <value>Galeride Onaylandı</value>
   </data>
   <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
-    <value>galeride silindi</value>
+    <value>Galeride Silindi</value>
   </data>
   <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
-    <value>galeride reddedildi</value>
+    <value>Galeride Reddedildi</value>
   </data>
   <data name="Audit_Limit_Help" xml:space="preserve">
-    <value>Göstermek için kaç giriş</value>
+    <value>Gösterilecek kayıt sayısı</value>
   </data>
   <data name="Audit_Limit_Label" xml:space="preserve">
     <value>Limit</value>
   </data>
   <data name="Audit_List_Failed" xml:space="preserve">
-    <value>Denetim listesini almak için başarısız oldu</value>
+    <value>Denetim listesi alınamadı</value>
   </data>
   <data name="Audit_LoggedOut" xml:space="preserve">
-    <value>Logged out</value>
+    <value>Çıkış Yapıldı</value>
   </data>
   <data name="Audit_Logs" xml:space="preserve">
-    <value>Denetim Logs</value>
+    <value>Denetim Kayıtları</value>
   </data>
   <data name="Audit_MultiFactorAdded" xml:space="preserve">
-    <value>Hesabına çok faktör eklendi</value>
+    <value>Hesaba çok faktörlü doğrulama eklendi</value>
   </data>
   <data name="Audit_MultiFactorPassed" xml:space="preserve">
-    <value>Doğru multi-faktör token</value>
+    <value>Doğru çok faktörlü token</value>
   </data>
   <data name="Audit_MultiFactorReset" xml:space="preserve">
-    <value>Çok faktörlü anahtarlarını sıfırlama</value>
+    <value>Çok faktörlü doğrulama anahtarları sıfırlandı</value>
   </data>
   <data name="Audit_MultiFactorResetUser" xml:space="preserve">
-    <value>Kullanıcı için çoklu faktör</value>
+    <value>Kullanıcı için çok faktörlü doğrulama sıfırlandı</value>
   </data>
   <data name="Audit_Password_Reset" xml:space="preserve">
-    <value>Kullanıcı bir parola sıfırlama talep etti</value>
+    <value>Kullanıcı şifre sıfırlama talebinde bulundu</value>
   </data>
   <data name="Audit_SearchTerm_Help" xml:space="preserve">
-    <value>Bir arama terimine dayanan filtre logları</value>
+    <value>Bir arama terimine göre logları filtrele</value>
   </data>
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
-    <value>Arama Termi</value>
+    <value>Arama Terimi</value>
   </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
-    <value>Galeri için Güncelleme ayar</value>
+    <value>Galeri ayarları güncellendi</value>
   </data>
   <data name="Audit_UnfrozeUser" xml:space="preserve">
-    <value>Unfroze kullanıcı</value>
+    <value>Kullanıcı Askıdan Alındı</value>
   </data>
   <data name="Audit_UpdatedGallery" xml:space="preserve">
-    <value>Güncelleme galeri</value>
+    <value>Galeri Güncellendi</value>
   </data>
   <data name="Audit_UpdatedUser" xml:space="preserve">
-    <value>Güncellemelenen kullanıcı</value>
+    <value>Kullanıcı Güncellendi</value>
   </data>
   <data name="Audit_UserLoggedIn" xml:space="preserve">
-    <value>Kullanıcı Girişi Kullanıcı Girişi</value>
+    <value>Kullanıcı Giriş Yaptı</value>
   </data>
   <data name="Audit_WipeAllGalleries" xml:space="preserve">
-    <value>Wiped all gallery</value>
+    <value>Tüm Galeriler Silindi</value>
   </data>
   <data name="Audit_WipedGallery" xml:space="preserve">
-    <value>Wiped gallery</value>
+    <value>Galeri Silindi</value>
   </data>
   <data name="Available_Galleries" xml:space="preserve">
-    <value>Mevcut Galleries</value>
+    <value>Mevcut Galeriler</value>
   </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
-    <value>Hesabı kontrol etmek için başarısız oldu</value>
+    <value>Hesap durumu kontrol edilemedi</value>
   </data>
   <data name="Clean" xml:space="preserve">
-    <value>Temiz</value>
+    <value>Temizle</value>
   </data>
   <data name="Clean_Confirmation" xml:space="preserve">
     <value>Bu galeriyi temizlemek istediğinizden emin misiniz?</value>
@@ -269,244 +269,244 @@
     <value>Yüklemek için dosyaları seçmek için buraya tıklayın</value>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>Close</value>
+    <value>Kapat</value>
   </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
-    <value>Lütfen erişim sağlamak için bir site yöneticisiyle iletişime geçin</value>
+    <value>Lütfen erişim için site yöneticisiyle iletişime geçin</value>
   </data>
   <data name="Cookie_Audit_Error" xml:space="preserve">
-    <value>Çerez onayı için bir denetim mesajı yayınlamaya başarısız oldu</value>
+    <value>Çerez onayı için denetim mesajı yayınlanamadı</value>
   </data>
   <data name="CookiePolicy_Button_Text" xml:space="preserve">
-    <value>Cookie Policy</value>
+    <value>Çerez Politikası</value>
   </data>
   <data name="CookiePolicy_Message_Short" xml:space="preserve">
-    <value>Bu web sitesini kullanarak, kurabiye kullanımı açısından temel kurabiye kullanımımıza katılıyorsunuz. Daha fazla bilgi edinmek için lütfen bize bakın</value>
+    <value>Bu web sitesini kullanarak, temel çerez kullanımımızı kabul etmiş olursunuz. Daha fazla bilgi için lütfen bize bakın</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>Create</value>
+    <value>Oluştur</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
-    <value>Şu anda erişiminiz yok</value>
+    <value>Şu anda erişiminiz bulunmuyor</value>
   </data>
   <data name="Custom_Resources" xml:space="preserve">
     <value>Özel Kaynaklar</value>
   </data>
   <data name="Custom_Resources_Failed" xml:space="preserve">
-    <value>Özel kaynakları elde etmek için başarısız oldu</value>
+    <value>Özel kaynaklar alınamadı</value>
   </data>
   <data name="Custom_Resources_Upload_Help" xml:space="preserve">
-    <value>Lütfen yüklemek için bir görüntü dosyasını seçin</value>
+    <value>Lütfen yüklemek için bir görüntü dosyası seçin</value>
   </data>
   <data name="Custom_Resources_Upload_Label" xml:space="preserve">
     <value>Özel Kaynak</value>
   </data>
   <data name="CustomResource_Delete_Failed" xml:space="preserve">
-    <value>Özel kaynağı silmek için başarısız oldu</value>
+    <value>Özel kaynak silinemedi</value>
   </data>
   <data name="CustomResource_Upload_Failed" xml:space="preserve">
-    <value>Özel kaynak yüklemeye başarısız oldu</value>
+    <value>Özel kaynak yüklenemedi</value>
   </data>
   <data name="Danger_Zone" xml:space="preserve">
     <value>Tehlike Bölgesi</value>
   </data>
   <data name="Date" xml:space="preserve">
-    <value>Tarih Tarihi</value>
+    <value>Tarih</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>Varsayılan olarak</value>
+    <value>Varsayılan</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>Sil</value>
   </data>
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Bu galeriyi silmek istediğinizden emin misiniz?</value>
   </data>
   <data name="Demo_Message" xml:space="preserve">
-    <value>Bu bir demo versiyonudur. Tüm konfigürasyonlar, gelecekteki testçiler için temiz bir kesme sağlamak için periyodik olarak silinir.</value>
+    <value>Bu bir demo versiyonudur. Tüm yapılandırmalar, gelecekteki testler için temiz bir ortam sağlamak amacıyla periyodik olarak silinir</value>
   </data>
   <data name="Descending" xml:space="preserve">
-    <value>Descending</value>
+    <value>Azalan</value>
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
-    <value>Destructive Action Gerçekleştirildi</value>
+    <value>Yıkıcı İşlem Gerçekleştirildi</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
-    <value>Bu galeriyi indirmek için yetkili değilsiniz</value>
+    <value>Bu galeriyi indirme yetkiniz bulunmuyor</value>
   </data>
   <data name="Drag_And_Drop" xml:space="preserve">
-    <value>Drag</value>
+    <value>Sürükle ve Bırak</value>
   </data>
   <data name="Duplicate_Item_Detected" xml:space="preserve">
-    <value>Duplicate file detected</value>
+    <value>Yinelenen dosya tespit edildi</value>
   </data>
   <data name="EmailAddress" xml:space="preserve">
     <value>E-posta Adresi</value>
   </data>
   <data name="Export" xml:space="preserve">
-    <value>İhracat İhracatı</value>
+    <value>Dışa Aktar</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
-    <value>Galeri oluşturmak için başarısız oldu</value>
+    <value>Galeri oluşturulamadı</value>
   </data>
   <data name="Failed_Add_User" xml:space="preserve">
-    <value>Kullanıcı oluşturmak için başarısız oldu</value>
+    <value>Kullanıcı oluşturulamadı</value>
   </data>
   <data name="Failed_Delete_Gallery" xml:space="preserve">
-    <value>Galeriyi silmek için başarısız oldu</value>
+    <value>Galeri silinemedi</value>
   </data>
   <data name="Failed_Delete_User" xml:space="preserve">
-    <value>Kullanıcıyı silmek için başarısız oldu</value>
+    <value>Kullanıcı silinemedi</value>
   </data>
   <data name="Failed_Download_Gallery" xml:space="preserve">
-    <value>Galeri indirmek için başarısız oldu</value>
+    <value>Galeri indirilemedi</value>
   </data>
   <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
-    <value>Galeriyi indirmek için başarısız oldu. Gizli anahtar geçersizydi</value>
+    <value>Galeri indirilemedi. Gizli anahtar geçersizdi</value>
   </data>
   <data name="Failed_Edit_Gallery" xml:space="preserve">
-    <value>Galeriyi güncellemek için başarısız oldu</value>
+    <value>Galeri güncellenemedi</value>
   </data>
   <data name="Failed_Edit_User" xml:space="preserve">
-    <value>Kullanıcıyı güncellemeye başarısız oldu</value>
+    <value>Kullanıcı güncellenemedi</value>
   </data>
   <data name="Failed_Export" xml:space="preserve">
-    <value>Veri ihraç etmek için başarısız oldu</value>
+    <value>Veri dışa aktarılamadı</value>
   </data>
   <data name="Failed_Finding_File" xml:space="preserve">
-    <value>Dosyayı bulmak için başarısız oldu</value>
+    <value>Dosya bulunamadı</value>
   </data>
   <data name="Failed_Import" xml:space="preserve">
-    <value>Verileri ithal etmek için başarısız oldu</value>
+    <value>Veri içe aktarılamadı</value>
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
-    <value>Öğeyi incelemeye başarısız oldu</value>
+    <value>Öğe incelenemedi</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
-    <value>Güncelleştirme ayarları başarısız oldu</value>
+    <value>Ayarlar güncellenemedi</value>
   </data>
   <data name="Failed_Wipe_Galleries" xml:space="preserve">
-    <value>Galerileri silmek için başarısız oldu</value>
+    <value>Galeriler silinemedi</value>
   </data>
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
-    <value>Galeriyi yok etmek için başarısız oldu</value>
+    <value>Galeri silinemedi</value>
   </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
-    <value>FFMPEG'yi yollamak için başarısız oldu</value>
+    <value>FFMPEG indirilemedi</value>
   </data>
   <data name="FFMPEG_Downloading" xml:space="preserve">
-    <value>Video başparmak üretmek için çalıştı ama FFMPEG henüz indirmedi. Bu taze bir yüklemeyse, indirmeyi tamamlamak ve kaçırmak için bekleyin arka tarayıcı tarafından oluşturulacaktır</value>
+    <value>Video küçük resmi oluşturulmaya çalışıldı ancak FFMPEG henüz indirilmedi. Bu yeni bir kuruluşsa, arka planda indirmenin tamamlanmasını bekleyin, kaçırılan küçük resimler otomatik olarak oluşturulacaktır</value>
   </data>
   <data name="File_Upload_Failed" xml:space="preserve">
-    <value>Dosya yüklemeye başarısız oldu</value>
+    <value>Dosya yüklenemedi</value>
   </data>
   <data name="Filename_Already_Exists" xml:space="preserve">
-    <value>Aynı adı olan bir dosya zaten var</value>
+    <value>Aynı isimde bir dosya zaten mevcut</value>
   </data>
   <data name="Filter" xml:space="preserve">
     <value>Filtre</value>
   </data>
   <data name="Forgot_Password" xml:space="preserve">
-    <value>Forgot Password</value>
+    <value>Şifremi Unuttum</value>
   </data>
   <data name="ForgotPassword" xml:space="preserve">
-    <value>Forgot Password</value>
+    <value>Şifremi Unuttum</value>
   </data>
   <data name="ForgotPassword_Email_Help" xml:space="preserve">
-    <value>Lütfen hesabı e-posta adresi girin.</value>
+    <value>Lütfen hesap e-posta adresinizi girin</value>
   </data>
   <data name="ForgotPassword_Email_Label" xml:space="preserve">
     <value>E-posta Adresi</value>
   </data>
   <data name="ForgotPassword_Failed" xml:space="preserve">
-    <value>Şifre sıfırlama e-posta göndermek için başarısız oldu</value>
+    <value>Şifre sıfırlama e-postası gönderilemedi</value>
   </data>
   <data name="Galleries" xml:space="preserve">
-    <value>Galleries</value>
+    <value>Galeriler</value>
   </data>
   <data name="Gallery" xml:space="preserve">
-    <value>Gallery</value>
+    <value>Galeri</value>
   </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
-    <value>Talep edilen galeri bulunamadı veya mevcut değil</value>
+    <value>İstenen galeri bulunamadı veya mevcut değil</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
-    <value>Şu anda paylaşılan anılar yok</value>
+    <value>Şu anda paylaşılan anı bulunmuyor</value>
   </data>
   <data name="Gallery_Empty_Upload" xml:space="preserve">
-    <value>Şu anda paylaşılan bir hatıra yok, neden yukarıdakileri yüklemiyorsunuz!</value>
+    <value>Şu anda paylaşılan bir anı yok, neden yukarıdan yüklemiyorsunuz!</value>
   </data>
   <data name="Gallery_Full" xml:space="preserve">
-    <value>Galeri dolu ve max boyutunu aştı</value>
+    <value>Galeri dolu ve maksimum boyutu aştı</value>
   </data>
   <data name="Gallery_Identifier" xml:space="preserve">
-    <value>Gallery Identifier</value>
+    <value>Galeri Tanımlayıcısı</value>
   </data>
   <data name="Gallery_Identifier_Help" xml:space="preserve">
-    <value>Lütfen ziyaret etmek istediğiniz galerinin tanımlayıcısına girin.</value>
+    <value>Lütfen ziyaret etmek istediğiniz galerinin tanımlayıcısını girin</value>
   </data>
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
-    <value>my-wedding-gallery</value>
+    <value>benim-düğün-galerim</value>
   </data>
   <data name="Gallery_Key" xml:space="preserve">
-    <value>Galeri Key</value>
+    <value>Galeri Anahtarı</value>
   </data>
   <data name="Gallery_Key_Help" xml:space="preserve">
-    <value>Lütfen gizli anahtarı girin.</value>
+    <value>Lütfen gizli anahtarı girin</value>
   </data>
   <data name="Gallery_Key_Placeholder" xml:space="preserve">
-    <value>Burada gizli anahtar girin</value>
+    <value>Gizli anahtarı buraya girin</value>
   </data>
   <data name="Gallery_Limit_Reached" xml:space="preserve">
-    <value>En fazla izin verilen galeri sayısına ulaştı</value>
+    <value>İzin verilen maksimum galeri sayısına ulaşıldı</value>
   </data>
   <data name="Gallery_List_Failed" xml:space="preserve">
-    <value>Galeri listesini almak için başarısız oldu</value>
+    <value>Galeri listesi alınamadı</value>
   </data>
   <data name="Gallery_Name" xml:space="preserve">
-    <value>Gallery Name Gallery</value>
+    <value>Galeri Adı</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
-    <value>Gallery adı zaten var</value>
+    <value>Galeri adı zaten mevcut</value>
   </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
-    <value>Gallery Selector</value>
+    <value>Galeri Seçici</value>
   </data>
   <data name="Generate" xml:space="preserve">
-    <value>Genrate</value>
+    <value>Oluştur</value>
   </data>
   <data name="Group" xml:space="preserve">
-    <value>Grup Grup Grup Grubu</value>
+    <value>Grup</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
-    <value>Bir hata ana sayfayı yükleme oldu</value>
+    <value>Ana sayfa yüklenirken bir hata oluştu</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
-    <value>Kullanıcı kimlik seansını ayarlamaya başarısız oldu - Ad</value>
+    <value>Kullanıcı kimlik oturumu ayarlanamadı</value>
   </data>
   <data name="Image_Upload_Failed" xml:space="preserve">
-    <value>Görüntüleri yüklemek için başarısız oldu</value>
+    <value>Görseller yüklenemedi</value>
   </data>
   <data name="Images" xml:space="preserve">
     <value>Fotoğraflar</value>
   </data>
   <data name="Import" xml:space="preserve">
-    <value>İthalat</value>
+    <value>İçe Aktar</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
-    <value>Sağlanan erişim geçersizydi</value>
+    <value>Sağlanan erişim token'ı geçersiz</value>
   </data>
   <data name="Invalid_File_Type" xml:space="preserve">
-    <value>Dosya türü geçersizdir</value>
+    <value>Dosya türü geçersiz</value>
   </data>
   <data name="Invalid_Gallery_Id" xml:space="preserve">
-    <value>Invalid galeri Id</value>
+    <value>Geçersiz galeri ID'si</value>
   </data>
   <data name="Invalid_Gallery_Key" xml:space="preserve">
-    <value>Invalid galeri anahtarı</value>
+    <value>Geçersiz galeri anahtarı</value>
   </data>
   <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
-    <value>Bir istek geçersiz bir gizli anahtar kullanarak yapıldı</value>
+    <value>Geçersiz bir gizli anahtar kullanılarak istek yapıldı</value>
   </data>
   <data name="Key" xml:space="preserve">
     <value>Anahtar</value>
@@ -515,52 +515,52 @@
     <value>Manzara</value>
   </data>
   <data name="Link" xml:space="preserve">
-    <value>Link</value>
+    <value>Bağlantı</value>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>Login</value>
+    <value>Giriş Yap</value>
   </data>
   <data name="Login_Failed" xml:space="preserve">
-    <value>Kullanıcı girişi başarısız oldu</value>
+    <value>Kullanıcı girişi başarısız</value>
   </data>
   <data name="Login_Password_Help" xml:space="preserve">
-    <value>Lütfen hesap şifresi girin.</value>
+    <value>Lütfen hesap şifrenizi girin</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Şifre</value>
   </data>
   <data name="Login_Username_Help" xml:space="preserve">
-    <value>Lütfen hesap adı girin.</value>
+    <value>Lütfen hesap kullanıcı adınızı girin</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
-    <value>Username</value>
+    <value>Kullanıcı Adı</value>
   </data>
   <data name="Logout" xml:space="preserve">
-    <value>Logout</value>
+    <value>Çıkış Yap</value>
   </data>
   <data name="Manage_Data" xml:space="preserve">
     <value>Veri Yönetimi</value>
   </data>
   <data name="Max_File_Size" xml:space="preserve">
-    <value>Max dosya boyutu</value>
+    <value>Maksimum dosya boyutu</value>
   </data>
   <data name="MediaType" xml:space="preserve">
-    <value>Media</value>
+    <value>Medya Türü</value>
   </data>
   <data name="Members" xml:space="preserve">
-    <value>Üye Üyeleri</value>
+    <value>Üyeler</value>
   </data>
   <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
-    <value>2FA'yı kurmak için başarısız oldu</value>
+    <value>2FA kurulumu başarısız</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Name</value>
+    <value>İsim</value>
   </data>
   <data name="Name_Cannot_Be_Blank" xml:space="preserve">
     <value>Galeri adı boş olamaz</value>
   </data>
   <data name="New_Items_Pending_Review" xml:space="preserve">
-    <value>Yeni Maddeler</value>
+    <value>Yeni Öğeler</value>
   </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Hiçbir özel kaynak yüklenmedi</value>
@@ -572,40 +572,40 @@
     <value>Yükleme için hiçbir dosya tespit edilmedi</value>
   </data>
   <data name="No_Galleries" xml:space="preserve">
-    <value>Henüz yaratılan galeriler yok</value>
+    <value>Henüz oluşturulmuş galeri bulunmuyor</value>
   </data>
   <data name="No_Pending_Uploads" xml:space="preserve">
-    <value>Hiç bir inceleme beklemezler</value>
+    <value>İnceleme bekleyen hiçbir öğe yok</value>
   </data>
   <data name="None" xml:space="preserve">
-    <value>Hiçbir şey yok</value>
+    <value>Hiçbiri</value>
   </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
-    <value>Parolanız şimdi sıfırlandı. Bir parola sıfırlama talep etmediyseniz lütfen hemen bir yöneticiye ulaşın.</value>
+    <value>Şifreniz başarıyla sıfırlandı. Bir şifre sıfırlama talebinde bulunmadıysanız lütfen hemen bir yöneticiye başvurun</value>
   </data>
   <data name="Password_Reset_Changed_Title" xml:space="preserve">
     <value>Şifreniz güncellendi!</value>
   </data>
   <data name="Password_Reset_Requested_Message" xml:space="preserve">
-    <value>Hesabınızda bir parola sıfırlama talep edildi. Bir şifre değişikliği talep ederseniz, güncellemek için aşağıdaki bağlantıya tıklayın.</value>
+    <value>Hesabınız için bir şifre sıfırlama talebinde bulunuldu. Bir şifre değişikliği talep ettiyseniz, güncellemek için aşağıdaki bağlantıya tıklayın</value>
   </data>
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
-    <value>Hesabınıza erişmeye sorun?</value>
+    <value>Hesabınıza erişimde sorun mu yaşıyorsunuz?</value>
   </data>
   <data name="PasswordReset" xml:space="preserve">
-    <value>Şifre sıfırlama</value>
+    <value>Şifre Sıfırlama</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
-    <value>Şifre sıfırlama e-posta göndermek için başarısız oldu.</value>
+    <value>Şifre sıfırlama e-postası gönderilemedi</value>
   </data>
   <data name="Pending" xml:space="preserve">
-    <value>Pending</value>
+    <value>Beklemede</value>
   </data>
   <data name="Pending_Uploads" xml:space="preserve">
-    <value>Pending Uploads</value>
+    <value>Bekleyen Yüklemeler</value>
   </data>
   <data name="Pending_Uploads_Failed" xml:space="preserve">
-    <value>Beklemek için başarısız oldu</value>
+    <value>Bekleyen yüklemeler alınamadı</value>
   </data>
   <data name="Portrait" xml:space="preserve">
     <value>Portre</value>
@@ -614,280 +614,280 @@
     <value>Sunum</value>
   </data>
   <data name="Random" xml:space="preserve">
-    <value>Random</value>
+    <value>Rastgele</value>
   </data>
   <data name="Register" xml:space="preserve">
-    <value>Register</value>
+    <value>Kayıt Ol</value>
   </data>
   <data name="Register_Account" xml:space="preserve">
-    <value>Kayıt Hesabı</value>
+    <value>Hesap Oluştur</value>
   </data>
   <data name="Register_CPassword_Help" xml:space="preserve">
-    <value>Parolanızı Onaylayın</value>
+    <value>Şifrenizi onaylayın</value>
   </data>
   <data name="Register_CPassword_Label" xml:space="preserve">
-    <value>Şifreyi Onaylayın</value>
+    <value>Şifreyi Onayla</value>
   </data>
   <data name="Register_Email_Help" xml:space="preserve">
-    <value>Lütfen hesabı e-posta adresi girin.</value>
+    <value>Lütfen hesap e-posta adresinizi girin</value>
   </data>
   <data name="Register_Email_Label" xml:space="preserve">
     <value>E-posta Adresi</value>
   </data>
   <data name="Register_Password_Help" xml:space="preserve">
-    <value>Şifre bir şifre girer.</value>
+    <value>Lütfen bir şifre girin</value>
   </data>
   <data name="Register_Password_Label" xml:space="preserve">
     <value>Şifre</value>
   </data>
   <data name="Register_Username_Help" xml:space="preserve">
-    <value>Lütfen hesap adı girin.</value>
+    <value>Lütfen hesap kullanıcı adınızı girin</value>
   </data>
   <data name="Register_Username_Label" xml:space="preserve">
-    <value>Username</value>
+    <value>Kullanıcı Adı</value>
   </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
-    <value>Onaylama şifresi eşleşmez</value>
+    <value>Onay şifresi eşleşmiyor</value>
   </data>
   <data name="Registration_Email_Send_Failed" xml:space="preserve">
-    <value>Kullanıcıya kayıt e-posta göndermek için başarısız oldu.</value>
+    <value>Kullanıcıya kayıt e-postası gönderilemedi</value>
   </data>
   <data name="Registration_Email_Taken" xml:space="preserve">
-    <value>Belirtilen e-posta adresi ile bir hesap zaten var</value>
+    <value>Belirtilen e-posta adresiyle zaten bir hesap mevcut</value>
   </data>
   <data name="Registration_Failed" xml:space="preserve">
-    <value>Yeni kullanıcı kaydetmeye başarısız oldu</value>
+    <value>Yeni kullanıcı kaydı başarısız</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
-    <value>Lütfen geçerli bir e-posta adresini belirtin</value>
+    <value>Lütfen geçerli bir e-posta adresi belirtin</value>
   </data>
   <data name="Registration_Invalid_Password" xml:space="preserve">
-    <value>Lütfen 8 ve 100 karakter arasında geçerli bir şifre belirt, en az 1 üst vaka mektubu içeren, 1 daha düşük vaka mektubu, 1 numara ve 1 özel karakter</value>
+    <value>Lütfen 8-100 karakter arasında, en az 1 büyük harf, 1 küçük harf, 1 rakam ve 1 özel karakter içeren geçerli bir şifre belirtin</value>
   </data>
   <data name="Registration_Invalid_Username" xml:space="preserve">
-    <value>Lütfen 5 ve 50 karakter arasında geçerli bir kullanıcı belirt</value>
+    <value>Lütfen 5-50 karakter arasında geçerli bir kullanıcı adı belirtin</value>
   </data>
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
-    <value>E-posta doğrulama bağlantısını işleme konusu oldu</value>
+    <value>E-posta doğrulama bağlantısı işlenirken hata oluştu</value>
   </data>
   <data name="Registration_Success_Message" xml:space="preserve">
-    <value>You account başarıyla kaydedildi ve erişim için sizi bekliyor</value>
+    <value>Hesabınız başarıyla kaydedildi ve erişim için hazır</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
-    <value>Hoşgeldiniz!</value>
+    <value>Hoş Geldiniz!</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
-    <value>Hesabınız kayıtlıdır, ancak erişilebilir hale gelmeden önce doğrulanmalıdır. Lütfen aşağıdaki bağlantıya tıklayarak hesabınızı etkinleştirin.</value>
+    <value>Hesabınız kaydedildi, ancak erişilebilir olmadan önce doğrulanmalıdır. Lütfen hesabınızı etkinleştirmek için aşağıdaki bağlantıya tıklayın</value>
   </data>
   <data name="Registration_Username_Taken" xml:space="preserve">
-    <value>Kullanıcı adı zaten var. Lütfen yeni bir tane seçin</value>
+    <value>Kullanıcı adı zaten alınmış. Lütfen yeni bir tane seçin</value>
   </data>
   <data name="Registration_Weak_Password" xml:space="preserve">
-    <value>Belirtilen şifre kolayca tahmin edilir. Lütfen daha güvenli bir şifre seçin.</value>
+    <value>Belirtilen şifre kolayca tahmin edilebilir. Lütfen daha güvenli bir şifre seçin</value>
   </data>
   <data name="Reject" xml:space="preserve">
-    <value>Reject</value>
+    <value>Reddet</value>
   </data>
   <data name="Release_Version" xml:space="preserve">
-    <value>Salı</value>
+    <value>Sürüm</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>Rename</value>
+    <value>Yeniden Adlandır</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
-    <value>Şifre sıfırlama bağlantısını işleme konusu oldu</value>
+    <value>Şifre sıfırlama bağlantısı işlenirken hata oluştu</value>
   </data>
   <data name="Resources" xml:space="preserve">
-    <value>Kaynaklar Kaynakları Kaynaklar</value>
+    <value>Kaynaklar</value>
   </data>
   <data name="Review" xml:space="preserve">
-    <value>İnceleme</value>
+    <value>İncele</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
-    <value>Kurtarın QR</value>
+    <value>QR Kodunu Kaydet</value>
   </data>
   <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
-    <value>Özel kaynağı kurtarmak için başarısız oldu</value>
+    <value>Özel kaynak kaydedilemedi</value>
   </data>
   <data name="Save_To_Gallery_Failed" xml:space="preserve">
-    <value>Galeriye resim kurtarmak için başarısız oldu</value>
+    <value>Galeriye resim kaydedilemedi</value>
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
-    <value>Görüntülerinizi paylaşmak için telefonunuzun QR kodunu görüntülemek</value>
+    <value>Görüntülerinizi paylaşmak için telefonunuzla QR kodunu tarayın</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Ayarlar</value>
   </data>
   <data name="Settings_Account" xml:space="preserve">
-    <value>Hesap Hesabı</value>
+    <value>Hesap</value>
   </data>
   <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
-    <value>Bir kullanıcı engellenmeden önce kaç başarısız giriş</value>
+    <value>Bir kullanıcı engellenmeden önceki maksimum başarısız giriş denemesi sayısı</value>
   </data>
   <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
-    <value>Araçlar Deneyleri</value>
+    <value>Deneme Sayısı</value>
   </data>
   <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
-    <value>Bir kullanıcı ne kadar süre bloke edilmelidir</value>
+    <value>Bir kullanıcı ne kadar süreyle engellenmeli</value>
   </data>
   <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
-    <value>Lokasyon Dakikaları</value>
+    <value>Engelleme Süresi (Dakika)</value>
   </data>
   <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
-    <value>Profil ikonu kafa başında görünmelidir</value>
+    <value>Profil ikonu başlıkta görünmeli mi</value>
   </data>
   <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
-    <value>Profil Icon</value>
+    <value>Profil İkonu</value>
   </data>
   <data name="Settings_Account_Registration_Enabled_Help" xml:space="preserve">
-    <value>Konuklar hesap kaydetmelerine izin verilir mi?</value>
+    <value>Misafirlerin hesap oluşturmasına izin verilsin mi?</value>
   </data>
   <data name="Settings_Account_Registration_Enabled_Label" xml:space="preserve">
-    <value>Kayıt Enabled</value>
+    <value>Kayıt Etkin</value>
   </data>
   <data name="Settings_Account_Registration_RequireEmailValidation_Help" xml:space="preserve">
-    <value>Kullanıcıların hesaplarını aktive etmek için e-postalarını doğrulamaları gerekir mi?</value>
+    <value>Kullanıcıların hesaplarını etkinleştirmek için e-postalarını doğrulamaları gerekli mi?</value>
   </data>
   <data name="Settings_Account_Registration_RequireEmailValidation_Label" xml:space="preserve">
-    <value>E-posta doğrulama gerektirir</value>
+    <value>E-posta Doğrulama Gerekli</value>
   </data>
   <data name="Settings_Alerts" xml:space="preserve">
     <value>Uyarılar</value>
   </data>
   <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
-    <value>Hesaplar kilitli olduğunda uyarılar gönderilmelidir</value>
+    <value>Hesaplar kilitlendiğinde uyarılar gönderilsin mi</value>
   </data>
   <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
-    <value>Hesap</value>
+    <value>Hesap Kilidi</value>
   </data>
   <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
-    <value>Yıkıcı bir eylem yapıldığında uyarılar gönderilmelidir</value>
+    <value>Yıkıcı bir işlem yapıldığında uyarılar gönderilsin mi</value>
   </data>
   <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
-    <value>Destructive Actions</value>
+    <value>Yıkıcı İşlemler</value>
   </data>
   <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
-    <value>Uyarılar başarısız giriş girişimlerinde gönderilir</value>
+    <value>Başarısız giriş denemelerinde uyarılar gönderilsin mi</value>
   </data>
   <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
     <value>Başarısız Giriş</value>
   </data>
   <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
-    <value>Uyarılar yeni bir öğenin devam etmesi durumunda gönderilmelidir</value>
+    <value>Yeni bir öğe incelenmeyi beklediğinde uyarılar gönderilsin mi</value>
   </data>
   <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
-    <value>Pending Review</value>
+    <value>Bekleyen İnceleme</value>
   </data>
   <data name="Settings_BackgroundServices" xml:space="preserve">
-    <value>Plan Hizmetleri</value>
+    <value>Arka Plan Hizmetleri</value>
   </data>
   <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
-    <value>Geçici dosyaları temizleyin</value>
+    <value>Geçici dosyaları temizle</value>
   </data>
   <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
-    <value>Cleanup</value>
+    <value>Temizlik</value>
   </data>
   <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
-    <value>Picks up dosyaları doğrudan galeri klasörüne düştü</value>
+    <value>Galeri klasörüne doğrudan bırakılan dosyaları alır</value>
   </data>
   <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
-    <value>Rehber</value>
+    <value>Dizin Tarayıcı</value>
   </data>
   <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
-    <value>Galeri stats hakkında bir rapor gönderin</value>
+    <value>Galeri istatistikleri hakkında rapor gönder</value>
   </data>
   <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
-    <value>Email Reports</value>
+    <value>E-posta Raporları</value>
   </data>
   <data name="Settings_Basic" xml:space="preserve">
     <value>Temel</value>
   </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
-    <value>Temel Url bağlantıları ve bildirimlerinde kullanılır</value>
+    <value>Bağlantılar ve bildirimlerde kullanılacak temel URL</value>
   </data>
   <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
-    <value>Base Url</value>
+    <value>Temel URL</value>
   </data>
   <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
-    <value>Bir e-posta raporu galeri stats ile gönderilmelidir</value>
+    <value>Galeri istatistikleriyle bir e-posta raporu gönderilsin mi</value>
   </data>
   <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
     <value>E-posta Raporu</value>
   </data>
   <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
-    <value>Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Should Http kullanıcıları httpsye zorlanılıyor</value>
+    <value>HTTP kullanıcıları HTTPS'ye yönlendirilsin mi</value>
   </data>
   <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
-    <value>Force Https</value>
+    <value>HTTPS Zorunlu</value>
   </data>
   <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
-    <value>Nasıl kullanıcılar bir galeri seçin</value>
+    <value>Kullanıcılar galeri seçimini nasıl yapsın</value>
   </data>
   <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
-    <value>Gallery Selector Tipi Tipi Tipi Tipi</value>
+    <value>Galeri Seçici Türü</value>
   </data>
   <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
-    <value>Varsayılan galeri seçeneği görünür olmalıdır</value>
+    <value>Varsayılan galeri seçeneği görünür olsun mu</value>
   </data>
   <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
-    <value>Show Default Gallery</value>
+    <value>Varsayılan Galeriyi Göster</value>
   </data>
   <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
-    <value>Konuklar yeni galeriler oluşturmak için izin verilmelidir</value>
+    <value>Misafirlerin yeni galeri oluşturmasına izin verilsin mi</value>
   </data>
   <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
-    <value>Guest Gallery Creation Creation</value>
+    <value>Misafir Galeri Oluşturma</value>
   </data>
   <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
-    <value>Gizli anahtar QR koduna dahil edilmelidir</value>
+    <value>Gizli anahtar QR koduna dahil edilsin mi</value>
   </data>
   <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
-    <value>Insecure QR kodları</value>
+    <value>Güvenli Olmayan QR Kodları</value>
   </data>
   <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
-    <value>Kullanıcıyı yönlendiren ev bağlantısına tıklamalı</value>
+    <value>Ana sayfa bağlantısı tıklanabilir olsun mu</value>
   </data>
   <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
-    <value>Clickable Home Link</value>
+    <value>Tıklanabilir Ana Sayfa Bağlantısı</value>
   </data>
   <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
-    <value>Yeni sekmelerde açık bağlantılar açmalı</value>
+    <value>Bağlantılar yeni sekmede açılsın mı</value>
   </data>
   <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
-    <value>Yeni Tab Links</value>
+    <value>Yeni Sekme Bağlantıları</value>
   </data>
   <data name="Settings_Basic_Logo_Help" xml:space="preserve">
-    <value>Başlıklarda ve sekmelerde göstermek için ikon</value>
+    <value>Başlıklarda ve sekmelerde gösterilecek ikon</value>
   </data>
   <data name="Settings_Basic_Logo_Label" xml:space="preserve">
     <value>Logo</value>
   </data>
   <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
-    <value>Kaç galeri kullanıcı oluşturmak için izin verilir</value>
+    <value>Kullanıcı başına oluşturulabilecek maksimum galeri sayısı</value>
   </data>
   <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
-    <value>Max Gallery Count</value>
+    <value>Maksimum Galeri Sayısı</value>
   </data>
   <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
-    <value>Bir veya daha fazla galeri olması gerekir</value>
+    <value>Bir veya daha fazla galeri olması gerekiyor mu</value>
   </data>
   <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
-    <value>Galeri Mode</value>
+    <value>Galeri Modu</value>
   </data>
   <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
-    <value>Helenails için herhangi bir yönde maksimum piksel</value>
+    <value>Küçük resimler için herhangi bir yöndeki maksimum piksel</value>
   </data>
   <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
-    <value>Katnail Çözümü</value>
+    <value>Küçük Resim Çözünürlüğü</value>
   </data>
   <data name="Settings_Basic_Title_Help" xml:space="preserve">
-    <value>Başlıklarda ve sekmelerde göstermek için isim</value>
+    <value>Başlıklarda ve sekmelerde gösterilecek isim</value>
   </data>
   <data name="Settings_Basic_Title_Label" xml:space="preserve">
-    <value>Başlık:</value>
+    <value>Başlık</value>
   </data>
   <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
-    <value>CookiePolicy info sayfasında görüntülemek için içerik</value>
+    <value>Çerez Politikası bilgi sayfasında görüntülenecek içerik</value>
   </data>
   <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
     <value>Özel Çerez Politikası</value>
@@ -896,40 +896,40 @@
     <value>Özel Politikalar</value>
   </data>
   <data name="Settings_Failed" xml:space="preserve">
-    <value>Ayarları almak için başarısız oldu</value>
+    <value>Ayarlar alınamadı</value>
   </data>
   <data name="Settings_Gallery" xml:space="preserve">
-    <value>Galeri Temsilleri</value>
+    <value>Galeri</value>
   </data>
   <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
-    <value>Hangi dosya türleri misafirler yüklemeye izin verilir</value>
+    <value>Misafirlerin hangi dosya türlerini yüklemesine izin verilsin</value>
   </data>
   <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
-    <value>İzinli Dosya Türü</value>
+    <value>İzin Verilen Dosya Türleri</value>
   </data>
   <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
-    <value>Galerinin üst kısmında görüntülemek için bir görüntü</value>
+    <value>Galerinin üst kısmında görüntülenecek resim</value>
   </data>
   <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
-    <value>Banner Image</value>
+    <value>Başlık Resmi</value>
   </data>
   <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
-    <value>Konukların dosya seçici veya kamera arasındaki seçeneği olmalıdır</value>
+    <value>Misafirler dosya seçici veya kamera arasında seçim yapabilsin mi</value>
   </data>
   <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
-    <value>Kamera Yükleri</value>
+    <value>Kamera Yüklemeleri</value>
   </data>
   <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
-    <value>Göstermek için sütunların sayısı</value>
+    <value>Gösterilecek sütun sayısı</value>
   </data>
   <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
-    <value>Köşe</value>
+    <value>Sütunlar</value>
   </data>
   <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
     <value>Varsayılan galeri filtresi nedir</value>
   </data>
   <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
-    <value>Varsayılan filtre</value>
+    <value>Varsayılan Filtre</value>
   </data>
   <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
     <value>Varsayılan galeri grubu nedir</value>
@@ -938,145 +938,145 @@
     <value>Varsayılan Grup</value>
   </data>
   <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
-    <value>Varsayılan galeri düzeni nedir</value>
+    <value>Varsayılan galeri sıralaması nedir</value>
   </data>
   <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
-    <value>Varsayılan sipariş</value>
+    <value>Varsayılan Sıralama</value>
   </data>
   <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
     <value>Varsayılan galeri görünümü nedir</value>
   </data>
   <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
-    <value>Varsayılan görünüm</value>
+    <value>Varsayılan Görünüm</value>
   </data>
   <data name="Settings_Gallery_Download_Help" xml:space="preserve">
-    <value>Konuklar eşyaları indirmeye izin verilmelidir</value>
+    <value>Misafirlerin öğeleri indirmesine izin verilsin mi</value>
   </data>
   <data name="Settings_Gallery_Download_Label" xml:space="preserve">
-    <value>İzin Download Download</value>
+    <value>İndirmeye İzin Ver</value>
   </data>
   <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
     <value>Galerinin genişliği</value>
   </data>
   <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
-    <value>Ekran Tipi</value>
+    <value>Ekran Türü</value>
   </data>
   <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
-    <value>Galerinin yeni içerik elde etmek için ne kadar süre taze olması gerekir</value>
+    <value>Galerinin yeni içerik almak için ne kadar süreyle yenilenmesi gerekir</value>
   </data>
   <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
-    <value>Idle Rene Mins</value>
+    <value>Boşta Yenileme Süresi (Dakika)</value>
   </data>
   <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
-    <value>Sayfa başına göstermek için maksimum sayıda öğe</value>
+    <value>Sayfa başına gösterilecek maksimum öğe sayısı</value>
   </data>
   <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
-    <value>Sayfalar</value>
+    <value>Sayfa Başına Öğe</value>
   </data>
   <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
-    <value>MB'nin yüklü bir dosyadaki en büyüğü ne olabilir</value>
+    <value>Yüklenebilecek bir dosyanın MB cinsinden maksimum boyutu</value>
   </data>
   <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
-    <value>Max Dosya Boyutu (MB)</value>
+    <value>Maksimum Dosya Boyutu (MB)</value>
   </data>
   <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
-    <value>MB'de ne kadar büyük bir galeri büyümeye izin verdi</value>
+    <value>MB cinsinden bir galerinin büyüyebileceği maksimum boyut</value>
   </data>
   <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
-    <value>Max Gallery Boyut (MB)</value>
+    <value>Maksimum Galeri Boyutu (MB)</value>
   </data>
   <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
-    <value>Tekrarlanan öğeler otomatik olarak reddedilmelidir</value>
+    <value>Yinelenen öğeler otomatik olarak reddedilsin mi</value>
   </data>
   <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
-    <value>Duplicates</value>
+    <value>Yinelenenleri Önle</value>
   </data>
   <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
-    <value>Tarayıcıda hangi siparişin öğeleri görünür</value>
+    <value>Tarayıcıda hangi sıralamada öğeler görünsün</value>
   </data>
   <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
-    <value>Varsayılan olarak QR Sort Sort Sort Sort</value>
+    <value>Varsayılan QR Sıralaması</value>
   </data>
   <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
-    <value>Hangi düzeni taradıktan sonra kullanıcının görmesi gerekenler</value>
+    <value>Taradıktan sonra kullanıcı hangi düzende görüntülemeli</value>
   </data>
   <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
-    <value>Varsayılan olarak QR View View View View</value>
+    <value>Varsayılan QR Görünümü</value>
   </data>
   <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
-    <value>QR kodu görüntülenmeli</value>
+    <value>QR kodu görüntülensin mi</value>
   </data>
   <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
-    <value>Göster QR Code</value>
+    <value>QR Kodunu Göster</value>
   </data>
   <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
-    <value>QR kodu ekran dili belirtmelidir</value>
+    <value>QR kodu ekran dilini belirtmeli mi</value>
   </data>
   <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
     <value>QR'de Kültür Ekle</value>
   </data>
   <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
-    <value>Galerinin üst kısmında sergilenecek bir alıntı</value>
+    <value>Galerinin üst kısmında görüntülenecek bir alıntı</value>
   </data>
   <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
     <value>Alıntı</value>
   </data>
   <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
-    <value>Sitede görünmeden önce öğelerin gözden geçirilmesi gerekiyor</value>
+    <value>Öğeler sitede görünmeden önce incelenmeli mi</value>
   </data>
   <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
-    <value>Örnek</value>
+    <value>İnceleme Gerekli</value>
   </data>
   <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
-    <value>Maddeleri daha sonra kullanım için depolanmalıdır</value>
+    <value>Reddedilen öğeler daha sonraki kullanım için saklansın mı</value>
   </data>
   <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
-    <value>Retain Rejected Materials</value>
+    <value>Reddedilen Öğeleri Sakla</value>
   </data>
   <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
-    <value>İnceleme sayacı gösterilmelidir</value>
+    <value>İnceleme sayacı gösterilsin mi</value>
   </data>
   <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
-    <value>İnceleme Counter Counter</value>
+    <value>İnceleme Sayacı</value>
   </data>
   <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
-    <value>Kullanıcı filtre ve grup medyayı filtreleyebilmeli mi?</value>
+    <value>Kullanıcılar medyayı filtrelemek ve gruplamak için filtreleri kullanabilsin mi</value>
   </data>
   <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
-    <value>Gösteri filtreleri</value>
+    <value>Filtreleri Göster</value>
   </data>
   <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
-    <value>Başlık galerinin üst kısmında gösterilmelidir</value>
+    <value>Başlık galerinin üst kısmında gösterilsin mi</value>
   </data>
   <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
-    <value>Show Title</value>
+    <value>Başlığı Göster</value>
   </data>
   <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
-    <value>Konuklar eşyaları yüklemeye izin verilmelidir</value>
+    <value>Misafirlerin öğe yüklemesine izin verilsin mi</value>
   </data>
   <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
-    <value>Emirlere İzin Ver</value>
+    <value>Yüklemeye İzin Ver</value>
   </data>
   <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
-    <value>Restrikt belirli bir döneme yükler</value>
+    <value>Yüklemeleri belirli bir dönemle sınırla</value>
   </data>
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
-    <value>Upload periods</value>
+    <value>Yükleme Dönemleri</value>
   </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Gotify</value>
   </data>
   <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
-    <value>Ntfy uyarıları gönderilmelidir</value>
+    <value>Gotify uyarıları gönderilsin mi</value>
   </data>
   <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Etkin</value>
   </data>
   <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
-    <value>Gotify server adresi</value>
+    <value>Gotify sunucu adresi</value>
   </data>
   <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
-    <value>Endpoint</value>
+    <value>Uç Nokta</value>
   </data>
   <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
     <value>Uyarıların önemi</value>
@@ -1085,73 +1085,73 @@
     <value>Öncelik</value>
   </data>
   <data name="Settings_Gotify_Token_Help" xml:space="preserve">
-    <value>Onaylama için kullanılan token</value>
+    <value>Kimlik doğrulama için kullanılan token</value>
   </data>
   <data name="Settings_Gotify_Token_Label" xml:space="preserve">
-    <value>Access Token Token</value>
+    <value>Erişim Token'ı</value>
   </data>
   <data name="Settings_IdentityCheck" xml:space="preserve">
     <value>Kimlik Kontrolü</value>
   </data>
   <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
-    <value>Kullanıcıları kendi adı için</value>
+    <value>Kullanıcılar kendilerini tanıtmalı mı</value>
   </data>
   <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Etkin</value>
   </data>
   <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
-    <value>Kimlik kontrolü sayfada görüntülenmeli</value>
+    <value>Kimlik kontrolü sayfa yüklendiğinde görüntülensin mi</value>
   </data>
   <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
-    <value>Page Load Prompt</value>
+    <value>Sayfa Yükleme İstemi</value>
   </data>
   <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
-    <value>Kullanıcıların bir e-posta adresi girmek için gerekli olmalıdır</value>
+    <value>Kullanıcıların e-posta adresi girmesi zorunlu olsun mu</value>
   </data>
   <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
     <value>E-posta Adresi</value>
   </data>
   <data name="Settings_IdentityCheck_RequireName_Help" xml:space="preserve">
-    <value>Kullanıcılar bir isim girmek için gerekli olmalıdır</value>
+    <value>Kullanıcıların isim girmesi zorunlu olsun mu</value>
   </data>
   <data name="Settings_IdentityCheck_RequireName_Label" xml:space="preserve">
     <value>İsim</value>
   </data>
   <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
-    <value>Medyayı yüklemek için kimlik kontrolü gerekli olmalıdır</value>
+    <value>Medya yüklemek için kimlik kontrolü gerekli olsun mu</value>
   </data>
   <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
-    <value>Upload Prompt</value>
+    <value>Yükleme İstemi</value>
   </data>
   <data name="Settings_Languages" xml:space="preserve">
     <value>Diller</value>
   </data>
   <data name="Settings_Languages_Default_Help" xml:space="preserve">
-    <value>Varsayılan web sitesi dili eğer hiçbiri seçilmezse</value>
+    <value>Hiçbiri seçilmezse varsayılan web sitesi dili</value>
   </data>
   <data name="Settings_Languages_Default_Label" xml:space="preserve">
-    <value>Varsayılan dil</value>
+    <value>Varsayılan Dil</value>
   </data>
   <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
-    <value>Kullanıcıların dili değiştirmelerine izin verin</value>
+    <value>Kullanıcıların dili değiştirmesine izin ver</value>
   </data>
   <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Etkin</value>
   </data>
   <data name="Settings_Ntfy" xml:space="preserve">
     <value>Ntfy</value>
   </data>
   <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
-    <value>Ntfy uyarıları gönderilmelidir</value>
+    <value>Ntfy uyarıları gönderilsin mi</value>
   </data>
   <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Etkin</value>
   </data>
   <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
-    <value>Ntfy server adresi</value>
+    <value>Ntfy sunucu adresi</value>
   </data>
   <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
-    <value>Endpoint</value>
+    <value>Uç Nokta</value>
   </data>
   <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
     <value>Uyarıların önemi</value>
@@ -1160,79 +1160,79 @@
     <value>Öncelik</value>
   </data>
   <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
-    <value>Onaylama için kullanılan token</value>
+    <value>Kimlik doğrulama için kullanılan token</value>
   </data>
   <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
-    <value>Access Token Token</value>
+    <value>Erişim Token'ı</value>
   </data>
   <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
-    <value>Uyarılar göndermek için konu</value>
+    <value>Uyarıların gönderileceği konu</value>
   </data>
   <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
-    <value>Topic</value>
+    <value>Konu</value>
   </data>
   <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
-    <value>Kullanıcı GDPR stili popups görmeli mi?</value>
+    <value>Kullanıcılar GDPR tarzı açılır pencereler görmeli mi</value>
   </data>
   <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Etkin</value>
   </data>
   <data name="Settings_Slideshow" xml:space="preserve">
-    <value>Slideshow</value>
+    <value>Slayt Gösterisi</value>
   </data>
   <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
-    <value>Kaydıraklar arasındaki geçiş ne kadar süre olmalıdır</value>
+    <value>Slaytlar arasındaki geçiş ne kadar sürmeli</value>
   </data>
   <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
-    <value>Fade</value>
+    <value>Geçiş Süresi</value>
   </data>
   <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
-    <value>Saniyeler içinde ne kadar uzun bir slayt gösterisi bir sonraki kaydırakına gitmeden önce</value>
+    <value>Slayt gösterisinin bir sonraki slayta geçmeden önce bekleme süresi (saniye)</value>
   </data>
   <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
-    <value>Interval</value>
+    <value>Aralık</value>
   </data>
   <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
-    <value>Dahil olmak için en fazla sayıda slayt</value>
+    <value>Dahil edilecek maksimum slayt sayısı</value>
   </data>
   <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
     <value>Limit</value>
   </data>
   <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
-    <value>QR kodu konukların taraması için sonunda ayrıştırılmalıdır</value>
+    <value>QR kodu misafirlerin taraması için sonunda görüntülensin mi</value>
   </data>
   <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
-    <value>Share Slide</value>
+    <value>Paylaşım Slaytı</value>
   </data>
   <data name="Settings_Smtp" xml:space="preserve">
-    <value>E-posta e-posta e-posta</value>
+    <value>E-posta</value>
   </data>
   <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
-    <value>Kullanıcı dostu sender adı</value>
+    <value>Kullanıcı dostu gönderen adı</value>
   </data>
   <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
-    <value>Ekran Adı</value>
+    <value>Görünen Ad</value>
   </data>
   <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
-    <value>E-posta uyarıları gönderilmelidir</value>
+    <value>E-posta uyarıları gönderilsin mi</value>
   </data>
   <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Etkin</value>
   </data>
   <data name="Settings_Smtp_From_Help" xml:space="preserve">
-    <value>Uyarının e-posta adresi gönderilir</value>
+    <value>Uyarıların gönderileceği e-posta adresi</value>
   </data>
   <data name="Settings_Smtp_From_Label" xml:space="preserve">
-    <value>From</value>
+    <value>Gönderen</value>
   </data>
   <data name="Settings_Smtp_Host_Help" xml:space="preserve">
-    <value>SMTP sağlayıcısının ev sahibi adı</value>
+    <value>SMTP sağlayıcısının sunucu adı</value>
   </data>
   <data name="Settings_Smtp_Host_Label" xml:space="preserve">
-    <value>Host</value>
+    <value>Sunucu</value>
   </data>
   <data name="Settings_Smtp_Password_Help" xml:space="preserve">
-    <value>İstekyi doğrulamak için kullanılan şifre</value>
+    <value>Kimlik doğrulama için kullanılan şifre</value>
   </data>
   <data name="Settings_Smtp_Password_Label" xml:space="preserve">
     <value>Şifre</value>
@@ -1244,64 +1244,64 @@
     <value>Port</value>
   </data>
   <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
-    <value>E-posta adreslerinin ayrı bir listesi</value>
+    <value>E-posta adreslerinin virgülle ayrılmış listesi</value>
   </data>
   <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
-    <value>Recipient</value>
+    <value>Alıcı</value>
   </data>
   <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
-    <value>SMTP sağlayıcısı SSL kullanıyor</value>
+    <value>SMTP sağlayıcısı SSL kullanıyor mu</value>
   </data>
   <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
-    <value>SSL kullanın</value>
+    <value>SSL Kullan</value>
   </data>
   <data name="Settings_Smtp_Username_Help" xml:space="preserve">
-    <value>İstekyi doğrulamak için kullanılan kullanıcı adı</value>
+    <value>Kimlik doğrulama için kullanılan kullanıcı adı</value>
   </data>
   <data name="Settings_Smtp_Username_Label" xml:space="preserve">
-    <value>Username</value>
+    <value>Kullanıcı Adı</value>
   </data>
   <data name="Settings_Themes" xml:space="preserve">
     <value>Temalar</value>
   </data>
   <data name="Settings_Themes_Default_Help" xml:space="preserve">
-    <value>Varsayılan web sitesi teması hiçbir şey seçilmezse</value>
+    <value>Hiçbiri seçilmezse varsayılan web sitesi teması</value>
   </data>
   <data name="Settings_Themes_Default_Label" xml:space="preserve">
-    <value>Varsayılan olarak Tema</value>
+    <value>Varsayılan Tema</value>
   </data>
   <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
-    <value>Kullanıcıların temayı değiştirmelerine izin verin</value>
+    <value>Kullanıcıların temayı değiştirmesine izin ver</value>
   </data>
   <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Etkin</value>
   </data>
   <data name="Share_Code" xml:space="preserve">
-    <value>Share Code</value>
+    <value>Paylaşım Kodu</value>
   </data>
   <data name="Single" xml:space="preserve">
-    <value>Single</value>
+    <value>Tek</value>
   </data>
   <data name="Slideshow" xml:space="preserve">
-    <value>Slideshow</value>
+    <value>Slayt Gösterisi</value>
   </data>
   <data name="Sort" xml:space="preserve">
-    <value>Sort</value>
+    <value>Sırala</value>
   </data>
   <data name="Space_Percent_Used" xml:space="preserve">
-    <value>Kullanımı</value>
+    <value>Kullanım Yüzdesi</value>
   </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsorlar</value>
   </data>
   <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
-    <value>Şu anda sponsor yok. Neden ilk olman!</value>
+    <value>Şu anda sponsor bulunmuyor. Neden ilk siz olmayasınız!</value>
   </data>
   <data name="Sponsors_Load_Error" xml:space="preserve">
-    <value>Sponsor listesini yüklemek için başarısız oldu</value>
+    <value>Sponsor listesi yüklenemedi</value>
   </data>
   <data name="Square" xml:space="preserve">
-    <value>Square</value>
+    <value>Kare</value>
   </data>
   <data name="Submit" xml:space="preserve">
     <value>Gönder</value>
@@ -1310,67 +1310,67 @@
     <value>Destekçiler</value>
   </data>
   <data name="Timestamp" xml:space="preserve">
-    <value>Times</value>
+    <value>Zaman Damgası</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Toplam</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
-    <value>Bilinmeyen inceleme eylemi</value>
+    <value>Bilinmeyen inceleme işlemi</value>
   </data>
   <data name="Update" xml:space="preserve">
-    <value>Update</value>
+    <value>Güncelle</value>
   </data>
   <data name="Upgrade" xml:space="preserve">
-    <value>Yükseltin</value>
+    <value>Yükselt</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
-    <value>Şu anda ücretsiz versiyonu kullanıyorsunuz. Daha fazla galeri depolamasını ve diğer büyük özellikleri hesabınızı geliştirmek için</value>
+    <value>Şu anda ücretsiz sürümü kullanıyorsunuz. Daha fazla galeri depolama alanı ve diğer harika özellikler için hesabınızı yükseltin</value>
   </data>
   <data name="Upload_Media" xml:space="preserve">
-    <value>Upload Media</value>
+    <value>Medya Yükle</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
-    <value>Bölüm Adı</value>
+    <value>Yükleyen</value>
   </data>
   <data name="Uploader" xml:space="preserve">
-    <value>Uploader</value>
+    <value>Yükleyici</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>Kullanıcı</value>
   </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
-    <value>Sağlanmış şifre ve karşılıklı şifre eşleşmez</value>
+    <value>Sağlanan şifre ve onay şifresi eşleşmiyor</value>
   </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
-    <value>Aynı adı olan kullanıcı ekle zaten var</value>
+    <value>Aynı isimde kullanıcı zaten mevcut</value>
   </data>
   <data name="Username" xml:space="preserve">
-    <value>Username</value>
+    <value>Kullanıcı Adı</value>
   </data>
   <data name="Users" xml:space="preserve">
     <value>Kullanıcılar</value>
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
-    <value>Kullanıcıların listesini almak için başarısız oldu</value>
+    <value>Kullanıcı listesi alınamadı</value>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>Verify</value>
+    <value>Doğrula</value>
   </data>
   <data name="Videos" xml:space="preserve">
     <value>Videolar</value>
   </data>
   <data name="View" xml:space="preserve">
-    <value>View</value>
+    <value>Görünüm</value>
   </data>
   <data name="Visit" xml:space="preserve">
-    <value>Ziyaret Ziyaret Ziyareti</value>
+    <value>Ziyaret Et</value>
   </data>
   <data name="Warning" xml:space="preserve">
     <value>Uyarı</value>
   </data>
   <data name="Wipe" xml:space="preserve">
-    <value>Wipe</value>
+    <value>Sil</value>
   </data>
   <data name="Wipe_All_Confirmation" xml:space="preserve">
     <value>Tüm galerileri silmek istediğinizden emin misiniz?</value>
