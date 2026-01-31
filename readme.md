@@ -2,6 +2,17 @@
 
  <br />![Banner](banner.png)
 
+> [!IMPORTANT]
+> **This project is under active development**
+> 
+> Whilst the last commit on this project has been months ago at this stage I just want to assure everyone that this project is still under active development. I am currently making large core changes to improve the overall look, feel and performance of the site as well as implement many new features that will provide an overall better user experience and end product.
+>
+> Whist this work continues in the background no new functionality will be added to the current project. Critical bugs and vulnerabilities will be patched but the next functionality update will be the new v2.0 release.
+>
+> All I ask from you is to sit back, relax and wait patiently while I do my hardest to create something bigger and better. I am trying my hardest to ensure all aspects of the new version are fully complete and fully polished rather than half broken or just downright bad features.
+> 
+> \- ***Cirx08***
+
 ## Support
 
 Thank you to everyone that supports this project. For anyone that hasn't yet I would be grateful if you would show some support by "buying me a coffee" through the link below. Weddings are expensive and all proceeds from this project will be going towards paying off my wedding bills.
