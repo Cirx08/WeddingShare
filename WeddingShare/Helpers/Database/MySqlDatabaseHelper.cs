@@ -1841,7 +1841,7 @@ namespace WeddingShare.Helpers.Database
             return new SettingModel()
             {
                 Id = model.Id.ToUpper(),
-                Value = null
+                Value = model.Value
             };
         }
 
@@ -2012,16 +2012,198 @@ namespace WeddingShare.Helpers.Database
         #region Backups
         public async Task<bool> Import(string path)
         {
-            return await Task.Run(() => {
-                return false;
-            });
+            bool result = false;
+
+            try
+            {
+                // Import from SQLite backup file into MySQL
+                // path is already a connection string like "Data Source=/path/to/file"
+                using (var sqliteConn = new Microsoft.Data.Sqlite.SqliteConnection(path))
+                {
+                    await sqliteConn.OpenAsync();
+
+                    using (var mysqlConn = await GetConnection())
+                    {
+                        await mysqlConn.OpenAsync();
+
+                        // Import in order respecting foreign keys
+                        await ImportTable(sqliteConn, mysqlConn, "users", 
+                            "SELECT id, username, email, password, failed_logins, lockout_until, [2fa_token], state, level, secret_code FROM users",
+                            "REPLACE INTO users (id, username, email, password, failed_logins, lockout_until, 2fa_token, state, level, secret_code) VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)");
+                        
+                        await ImportTable(sqliteConn, mysqlConn, "settings",
+                            "SELECT id, value FROM settings",
+                            "REPLACE INTO settings (id, value) VALUES (@p0, @p1)");
+                        
+                        await ImportTable(sqliteConn, mysqlConn, "galleries",
+                            "SELECT id, identifier, name, secret_key, owner FROM galleries",
+                            "REPLACE INTO galleries (id, identifier, name, secret_key, owner) VALUES (@p0, @p1, @p2, @p3, @p4)");
+                        
+                        await ImportTable(sqliteConn, mysqlConn, "gallery_items",
+                            "SELECT id, gallery_id, title, uploaded_by, state, media_type, checksum, orientation, uploaded_date, file_size, uploader_email FROM gallery_items",
+                            "REPLACE INTO gallery_items (id, gallery_id, title, uploaded_by, state, media_type, checksum, orientation, uploaded_date, file_size, uploader_email) VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)");
+                        
+                        await ImportTable(sqliteConn, mysqlConn, "gallery_likes",
+                            "SELECT id, gallery_item_id, identifier FROM gallery_likes",
+                            "REPLACE INTO gallery_likes (id, gallery_item_id, identifier) VALUES (@p0, @p1, @p2)");
+                        
+                        await ImportTable(sqliteConn, mysqlConn, "gallery_settings",
+                            "SELECT id, gallery_id, value FROM gallery_settings",
+                            "REPLACE INTO gallery_settings (id, gallery_id, value) VALUES (@p0, @p1, @p2)");
+                        
+                        await ImportTable(sqliteConn, mysqlConn, "custom_resources",
+                            "SELECT id, type, name, content, owner FROM custom_resources",
+                            "REPLACE INTO custom_resources (id, type, name, content, owner) VALUES (@p0, @p1, @p2, @p3, @p4)");
+                        
+                        await ImportTable(sqliteConn, mysqlConn, "audit_logs",
+                            "SELECT id, timestamp, username, action FROM audit_logs",
+                            "REPLACE INTO audit_logs (id, timestamp, username, action) VALUES (@p0, @p1, @p2, @p3)");
+
+                        await mysqlConn.CloseAsync();
+                    }
+
+                    await sqliteConn.CloseAsync();
+                }
+
+                result = true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Failed to import database - {ex?.Message}");
+            }
+
+            return result;
+        }
+
+        private async Task ImportTable(Microsoft.Data.Sqlite.SqliteConnection sqliteConn, MySqlConnection mysqlConn, string tableName, string selectQuery, string insertQuery)
+        {
+            try
+            {
+                using (var cmd = new Microsoft.Data.Sqlite.SqliteCommand(selectQuery, sqliteConn))
+                using (var reader = await cmd.ExecuteReaderAsync())
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        using (var mysqlCmd = CreateCommand(insertQuery, mysqlConn))
+                        {
+                            for (int i = 0; i < reader.FieldCount; i++)
+                            {
+                                mysqlCmd.Parameters.AddWithValue($"@p{i}", reader.IsDBNull(i) ? DBNull.Value : reader.GetValue(i));
+                            }
+                            await mysqlCmd.ExecuteNonQueryAsync();
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogWarning(ex, $"Failed to import table {tableName} - {ex?.Message}");
+            }
         }
 
         public async Task<bool> Export(string path)
         {
-            return await Task.Run(() => {
-                return false;
-            });
+            bool result = false;
+
+            try
+            {
+                // Export MySQL data to SQLite format for compatibility
+                // path is already a connection string like "Data Source=/path/to/file"
+                using (var sqliteConn = new Microsoft.Data.Sqlite.SqliteConnection(path))
+                {
+                    await sqliteConn.OpenAsync();
+
+                    // Create SQLite tables - use brackets for column names starting with numbers
+                    var createTables = @"
+                        CREATE TABLE IF NOT EXISTS galleries (id INTEGER PRIMARY KEY, identifier TEXT, name TEXT NOT NULL UNIQUE, secret_key TEXT, owner INTEGER DEFAULT 0);
+                        CREATE TABLE IF NOT EXISTS gallery_items (id INTEGER PRIMARY KEY, gallery_id INTEGER NOT NULL, title TEXT NOT NULL, uploaded_by TEXT, state INTEGER NOT NULL DEFAULT 0, media_type INTEGER DEFAULT 0, checksum TEXT, orientation INTEGER DEFAULT 0, uploaded_date TEXT, file_size INTEGER DEFAULT 0, uploader_email TEXT, FOREIGN KEY (gallery_id) REFERENCES galleries(id));
+                        CREATE TABLE IF NOT EXISTS gallery_likes (id INTEGER PRIMARY KEY, gallery_item_id INTEGER NOT NULL, identifier TEXT NOT NULL, FOREIGN KEY (gallery_item_id) REFERENCES gallery_items(id));
+                        CREATE TABLE IF NOT EXISTS gallery_settings (id TEXT NOT NULL, gallery_id INTEGER NOT NULL, value TEXT, PRIMARY KEY (id, gallery_id));
+                        CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT NOT NULL UNIQUE, email TEXT UNIQUE, password TEXT NOT NULL, failed_logins INTEGER DEFAULT 0, lockout_until TEXT, [2fa_token] TEXT, state INTEGER DEFAULT 0, level INTEGER DEFAULT 0, secret_code TEXT);
+                        CREATE TABLE IF NOT EXISTS settings (id TEXT PRIMARY KEY, value TEXT);
+                        CREATE TABLE IF NOT EXISTS custom_resources (id INTEGER PRIMARY KEY, type INTEGER NOT NULL, name TEXT NOT NULL, content BLOB, owner INTEGER DEFAULT 0);
+                        CREATE TABLE IF NOT EXISTS audit_logs (id INTEGER PRIMARY KEY, timestamp TEXT NOT NULL, username TEXT, action TEXT NOT NULL);
+                    ";
+                    using (var cmd = new Microsoft.Data.Sqlite.SqliteCommand(createTables, sqliteConn))
+                    {
+                        await cmd.ExecuteNonQueryAsync();
+                    }
+
+                    using (var mysqlConn = await GetConnection())
+                    {
+                        await mysqlConn.OpenAsync();
+
+                        // Export galleries
+                        await ExportTable(mysqlConn, sqliteConn, "galleries", "SELECT id, identifier, name, secret_key, owner FROM galleries");
+                        
+                        // Export gallery_items
+                        await ExportTable(mysqlConn, sqliteConn, "gallery_items", "SELECT id, gallery_id, title, uploaded_by, state, media_type, checksum, orientation, uploaded_date, file_size, uploader_email FROM gallery_items");
+                        
+                        // Export gallery_likes
+                        await ExportTable(mysqlConn, sqliteConn, "gallery_likes", "SELECT id, gallery_item_id, identifier FROM gallery_likes");
+                        
+                        // Export gallery_settings
+                        await ExportTable(mysqlConn, sqliteConn, "gallery_settings", "SELECT id, gallery_id, value FROM gallery_settings");
+                        
+                        // Export users
+                        await ExportTable(mysqlConn, sqliteConn, "users", "SELECT id, username, email, password, failed_logins, lockout_until, 2fa_token, state, level, secret_code FROM users");
+                        
+                        // Export settings
+                        await ExportTable(mysqlConn, sqliteConn, "settings", "SELECT id, value FROM settings");
+                        
+                        // Export custom_resources
+                        await ExportTable(mysqlConn, sqliteConn, "custom_resources", "SELECT id, type, name, content, owner FROM custom_resources");
+                        
+                        // Export audit_logs
+                        await ExportTable(mysqlConn, sqliteConn, "audit_logs", "SELECT id, timestamp, username, action FROM audit_logs");
+
+                        await mysqlConn.CloseAsync();
+                    }
+
+                    await sqliteConn.CloseAsync();
+                }
+
+                result = true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Failed to export database - {ex?.Message}");
+            }
+
+            return result;
+        }
+
+        private async Task ExportTable(MySqlConnection mysqlConn, Microsoft.Data.Sqlite.SqliteConnection sqliteConn, string tableName, string selectQuery)
+        {
+            try
+            {
+                using (var cmd = CreateCommand(selectQuery, mysqlConn))
+                using (var reader = await cmd.ExecuteReaderAsync())
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        var columns = new List<string>();
+                        var parameters = new List<string>();
+                        var sqliteCmd = new Microsoft.Data.Sqlite.SqliteCommand();
+                        sqliteCmd.Connection = sqliteConn;
+
+                        for (int i = 0; i < reader.FieldCount; i++)
+                        {
+                            var colName = reader.GetName(i);
+                            columns.Add($"\"{colName}\"");
+                            parameters.Add($"@p{i}");
+                            sqliteCmd.Parameters.AddWithValue($"@p{i}", reader.IsDBNull(i) ? DBNull.Value : reader.GetValue(i));
+                        }
+
+                        sqliteCmd.CommandText = $"INSERT OR REPLACE INTO {tableName} ({string.Join(", ", columns)}) VALUES ({string.Join(", ", parameters)})";
+                        await sqliteCmd.ExecuteNonQueryAsync();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogWarning(ex, $"Failed to export table {tableName} - {ex?.Message}");
+            }
         }
         #endregion
 
@@ -2256,7 +2438,7 @@ namespace WeddingShare.Helpers.Database
                             items.Add(new SettingModel()
                             {
                                 Id = id,
-                                Value = !await reader.IsDBNullAsync("value") ? reader.GetString("value").ToLower() : string.Empty
+                                Value = !await reader.IsDBNullAsync("value") ? reader.GetString("value") : string.Empty
                             });
                         }
                     }
