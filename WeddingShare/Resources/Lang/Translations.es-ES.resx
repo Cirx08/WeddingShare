@@ -434,7 +434,7 @@
     <value>Actualmente no hay recuerdos compartidos</value>
   </data>
   <data name="Gallery_Empty_Upload" xml:space="preserve">
-    <value>Actualmente no hay recuerdos compartidos, ¿por qué no subes los tuyos arriba!</value>
+    <value>Actualmente no hay recuerdos compartidos, ¿por qué no subes los tuyos?</value>
   </data>
   <data name="Gallery_Full" xml:space="preserve">
     <value>La galería está llena y ha superado el tamaño máximo de</value>
@@ -452,7 +452,7 @@
     <value>Clave de la galería</value>
   </data>
   <data name="Gallery_Key_Help" xml:space="preserve">
-    <value>Por favor, introduce la llave secreta.</value>
+    <value>Por favor, introduce la clave secreta.</value>
   </data>
   <data name="Gallery_Key_Placeholder" xml:space="preserve">
     <value>Introduzca aquí la clave secreta</value>
@@ -470,13 +470,13 @@
     <value>El nombre de la galería ya existe</value>
   </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
-    <value>Galería Selector</value>
+    <value>Selector de Galería</value>
   </data>
   <data name="Generate" xml:space="preserve">
     <value>Generar</value>
   </data>
   <data name="Group" xml:space="preserve">
-    <value>Grupo</value>
+    <value>Agrupar por</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Se produjo un error cargando la página principal</value>
@@ -620,7 +620,7 @@
     <value>Registro</value>
   </data>
   <data name="Register_Account" xml:space="preserve">
-    <value>Cuenta de registro</value>
+    <value>Registrar cuenta</value>
   </data>
   <data name="Register_CPassword_Help" xml:space="preserve">
     <value>Confirme su contraseña</value>
@@ -635,7 +635,7 @@
     <value>Dirección de correo electrónico</value>
   </data>
   <data name="Register_Password_Help" xml:space="preserve">
-    <value>Contraseña introduce una contraseña.</value>
+    <value>Introduce una contraseña.</value>
   </data>
   <data name="Register_Password_Label" xml:space="preserve">
     <value>Contraseña</value>
@@ -725,7 +725,7 @@
     <value>¿Cuántos accesos fallidos antes de que un usuario sea bloqueado</value>
   </data>
   <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
-    <value>Los intentos de bloqueo</value>
+    <value>Bloqueo tras intentos fallidos</value>
   </data>
   <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
     <value>¿Cuánto tiempo debe bloquear un usuario</value>
@@ -806,7 +806,7 @@
     <value>El Url base para ser utilizado en enlaces y notificaciones</value>
   </data>
   <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
-    <value>Base Url</value>
+    <value>URL Base</value>
   </data>
   <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
     <value>Si se envía un informe de correo electrónico con las estadísticas de la galería</value>
@@ -836,7 +836,7 @@
     <value>Si se permite a los huéspedes crear nuevas galerías</value>
   </data>
   <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
-    <value>Creación de la galería de invitados</value>
+    <value>Los invitados pueden crear galerías</value>
   </data>
   <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
     <value>Si la clave secreta se incluye en el código QR</value>
@@ -854,7 +854,7 @@
     <value>Los enlaces deben abrirse en nuevas pestañas</value>
   </data>
   <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
-    <value>Nuevos enlaces de pestañas</value>
+    <value>Abrir enlaces en nuevas pestañas</value>
   </data>
   <data name="Settings_Basic_Logo_Help" xml:space="preserve">
     <value>El icono para mostrar en encabezados y pestañas</value>
@@ -938,10 +938,10 @@
     <value>Grupo predeterminado</value>
   </data>
   <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
-    <value>¿Cuál es la orden de galería predeterminada</value>
+    <value>¿Cuál es el orden de galería predeterminado?</value>
   </data>
   <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
-    <value>Orden predeterminada</value>
+    <value>Orden predeterminado</value>
   </data>
   <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
     <value>Qué es la vista de galería predeterminada</value>
@@ -965,7 +965,7 @@
     <value>Después de cuánto tiempo debe la galería refrescarse para obtener nuevo contenido</value>
   </data>
   <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
-    <value>Idle Refresh Mins</value>
+    <value>Minutos de inactividad para actualizar</value>
   </data>
   <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
     <value>El número máximo de artículos para mostrar por página</value>
@@ -1010,10 +1010,10 @@
     <value>Mostrar código QR</value>
   </data>
   <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
-    <value>Si el código QR especifica el lenguaje de visualización</value>
+    <value>Si el código QR especifica el idioma de visualización</value>
   </data>
   <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
-    <value>Incluir la cultura en QR</value>
+    <value>Incluir idioma en QR</value>
   </data>
   <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
     <value>Una cita para mostrar en la parte superior de la galería</value>
@@ -1286,7 +1286,7 @@
     <value>Presentación de diapositivas</value>
   </data>
   <data name="Sort" xml:space="preserve">
-    <value>#</value>
+    <value>Ordenar</value>
   </data>
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Uso</value>
