@@ -368,6 +368,8 @@ namespace WeddingShare.Helpers.Database
         {
             bool result = false;
 
+            await DeleteGalleryLikes(model.Id);
+
             using (var conn = await GetConnection())
             {
                 var cmd = CreateCommand($"DELETE FROM `gallery_settings` WHERE `gallery_id`=@Id; DELETE FROM `gallery_items` WHERE `gallery_id`=@Id;", conn);
@@ -400,7 +402,7 @@ namespace WeddingShare.Helpers.Database
 
             using (var conn = await GetConnection())
             {
-                var cmd = CreateCommand($"DELETE FROM `gallery_settings`; DELETE FROM `gallery_items`; DELETE FROM `galleries` WHERE `id` > 1;", conn);
+                var cmd = CreateCommand($"DELETE FROM `gallery_likes`; DELETE FROM `gallery_settings`; DELETE FROM `gallery_items`; DELETE FROM `galleries` WHERE `id` > 1;", conn);
                 cmd.CommandType = CommandType.Text;
 
                 await conn.OpenAsync();
@@ -426,6 +428,8 @@ namespace WeddingShare.Helpers.Database
         public async Task<bool> DeleteGallery(GalleryModel model)
         {
             bool result = false;
+
+            await DeleteGalleryLikes(model.Id);
 
             using (var conn = await GetConnection())
             {
@@ -782,7 +786,7 @@ namespace WeddingShare.Helpers.Database
 
             using (var conn = await GetConnection())
             {
-                var cmd = CreateCommand($"DELETE FROM `gallery_items` WHERE `id`=@Id;", conn);
+                var cmd = CreateCommand($"DELETE FROM `gallery_likes` WHERE `gallery_item_id`=@Id; DELETE FROM `gallery_items` WHERE `id`=@Id;", conn);
                 cmd.CommandType = CommandType.Text;
                 cmd.Parameters.AddWithValue("Id", model.Id);
 
@@ -924,6 +928,35 @@ namespace WeddingShare.Helpers.Database
             }
 
             return await GetGalleryItemLikesCount(model.GalleryItemId);
+        }
+
+        private async Task<bool> DeleteGalleryLikes(int galleryId)
+        {
+            var galleryItems = await GetAllGalleryItems(galleryId);
+            if (galleryItems != null && galleryItems.Any())
+            {
+                foreach (var item in galleryItems)
+                {
+                    try
+                    {
+                        using (var conn = await GetConnection())
+                        {
+                            var cmd = CreateCommand($"DELETE FROM `gallery_likes` WHERE `gallery_item_id`=@Id;", conn);
+                            cmd.CommandType = CommandType.Text;
+                            cmd.Parameters.AddWithValue("Id", item.Id);
+
+                            await conn.OpenAsync();
+                            await cmd.ExecuteNonQueryAsync();
+                            await conn.CloseAsync();
+                        }
+                    }
+                    catch { }
+                }
+
+                return true;
+            }
+
+            return false;
         }
         #endregion
 

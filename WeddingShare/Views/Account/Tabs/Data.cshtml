@@ -5,7 +5,7 @@
 
 @{
     var userPermissions = User?.Identity?.GetUserPermissions() ?? new Permissions();
-    var showMySQLFeatures = !string.Equals("mysql", await _settings.GetOrDefault(Settings.Database.Type, "sqlite"), StringComparison.OrdinalIgnoreCase);
+    var showDatabaseImportExport = string.Equals("sqlite", await _settings.GetOrDefault(Settings.Database.Type, "sqlite"), StringComparison.OrdinalIgnoreCase);
 }
 
 @if (userPermissions.Data.HasFlag(DataPermissions.View))
@@ -29,7 +29,7 @@
         </div>
     </section>
 
-    @if (showMySQLFeatures && (userPermissions.Data.HasFlag(DataPermissions.Import)) || userPermissions.Data.HasFlag(DataPermissions.Export))
+    @if (userPermissions.Data.HasFlag(DataPermissions.Import) || userPermissions.Data.HasFlag(DataPermissions.Export))
     {
         <section class="pnl-account pnl-account-data pb-0 pb-lg-4">
             <div class="container px-3 px-lg-1 my-3 my-lg-0">
@@ -45,14 +45,14 @@
                         @if (userPermissions.Data.HasFlag(DataPermissions.Import))
                         {
                             <div class="mx-0 mx-sm-5 px-5 px-xl-5 text-primary d-inline-block">
-                                <i class="btnImport fa-solid fa-upload fa-2x pointer" alt="@_localizer["Import"].Value"></i>
+                                <i class="btnImport fa-solid fa-upload fa-2x pointer" data-show-database-options="@showDatabaseImportExport.ToString().ToLower()" alt="@_localizer["Import"].Value"></i>
                                 <h6 class="mb-0">@_localizer["Import"].Value</h6>
                             </div>
                         }
                         @if (userPermissions.Data.HasFlag(DataPermissions.Export))
                         {
                             <div class="mx-0 mx-sm-5 px-5 px-xl-5 text-primary d-inline-block">
-                                <i class="btnExport fa-solid fa-download fa-2x pointer" alt="@_localizer["Export"].Value"></i>
+                                <i class="btnExport fa-solid fa-download fa-2x pointer" data-show-database-options="@showDatabaseImportExport.ToString().ToLower()" alt="@_localizer["Export"].Value"></i>
                                 <h6 class="mb-0">@_localizer["Export"].Value</h6>
                             </div>
                         }

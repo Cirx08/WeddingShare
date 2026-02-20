@@ -1560,6 +1560,8 @@ namespace WeddingShare.Controllers
                 {
                     if (_fileHelper.DirectoryExists(UploadsDirectory))
                     {
+                        var databaseImportExport = string.Equals("sqlite", await _settings.GetOrDefault(Settings.Database.Type, "sqlite"), StringComparison.OrdinalIgnoreCase);
+
                         _fileHelper.CreateDirectoryIfNotExists(TempDirectory);
                         _fileHelper.DeleteDirectoryIfExists(exportDir);
                         _fileHelper.CreateDirectoryIfNotExists(exportDir);
@@ -1567,7 +1569,7 @@ namespace WeddingShare.Controllers
                         var dbExport = Path.Combine(exportDir, $"WeddingShare.bak");
 
                         var exported = true;
-                        if (options.Database)
+                        if (databaseImportExport && options.Database)
                         { 
                             exported = await _database.Export($"Data Source={dbExport}");
                         }
@@ -1576,7 +1578,7 @@ namespace WeddingShare.Controllers
                         {
                             var listing = new List<ZipListing>();
 
-                            if (options.Database)
+                            if (databaseImportExport && options.Database)
                             {
                                 listing.Add(new ZipListing(exportDir, new string[] { dbExport }));
                             }

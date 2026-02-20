@@ -581,33 +581,40 @@ function selectActiveTab(tab) {
                 return;
             }
 
-            displayPopup({
-                Title: localization.translate('Export_Data'),
-                Fields: [{
+            var options = [{
+                Id: 'uploads',
+                Type: 'checkbox',
+                Checked: true,
+                Class: 'form-check-input',
+                Label: 'Uploads'
+            }, {
+                Id: 'thumbnails',
+                Type: 'checkbox',
+                Checked: true,
+                Class: 'form-check-input',
+                Label: 'Thumbnails'
+            }, {
+                Id: 'custom-resources',
+                Type: 'checkbox',
+                Checked: true,
+                Class: 'form-check-input',
+                Label: 'Custom Resources'
+                }];
+
+            let showDatabaseImportExport = $(this).data('show-database-options');
+            if (showDatabaseImportExport) {
+                options.push({
                     Id: 'database',
                     Type: 'checkbox',
                     Checked: true,
                     Class: 'form-check-input',
                     Label: 'Database'
-                }, {
-                    Id: 'uploads',
-                    Type: 'checkbox',
-                    Checked: true,
-                    Class: 'form-check-input',
-                    Label: 'Uploads'
-                }, {
-                    Id: 'thumbnails',
-                    Type: 'checkbox',
-                    Checked: true,
-                    Class: 'form-check-input',
-                    Label: 'Thumbnails'
-                }, {
-                    Id: 'custom-resources',
-                    Type: 'checkbox',
-                    Checked: true,
-                    Class: 'form-check-input',
-                    Label: 'Custom Resources'
-                }],
+                });
+            }
+
+            displayPopup({
+                Title: localization.translate('Export_Data'),
+                Fields: options,
                 Buttons: [{
                     Text: localization.translate('Export'),
                     Class: 'btn-success',
