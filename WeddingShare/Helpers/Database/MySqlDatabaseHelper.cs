@@ -2256,7 +2256,7 @@ namespace WeddingShare.Helpers.Database
                             items.Add(new SettingModel()
                             {
                                 Id = id,
-                                Value = !await reader.IsDBNullAsync("value") ? reader.GetString("value").ToLower() : string.Empty
+                                Value = !await reader.IsDBNullAsync("value") ? reader.GetString("value") : string.Empty
                             });
                         }
                     }

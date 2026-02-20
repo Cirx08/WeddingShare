@@ -153,7 +153,7 @@ namespace WeddingShare.Helpers
                 var value = await this.GetOrDefault(key, string.Empty, galleryId);
                 if (!string.IsNullOrWhiteSpace(value))
                 {
-                    return Convert.ToBoolean(value);
+                    return Convert.ToBoolean(value.ToLower());
                 }
             }
             catch { }
