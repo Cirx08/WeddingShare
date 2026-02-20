@@ -2,6 +2,8 @@
 {
     public class Security
     {
+        public const string HardenGallerySecurity = "Security:Harden_Gallery_Security";
+
         public class Encryption
         {
             public const string Key = "Security:Encryption:Key";

@@ -19,6 +19,7 @@
 /WeddingShare/weddingshare.db
 /WeddingShare/wedding-share.db
 /WeddingShare/config/wedding-share.db
+/WeddingShare/config/wedding-share.db-*
 /WeddingShare/wwwroot/thumbnails
 /WeddingShare/wwwroot/temp
 /WeddingShare/ffmpeg
@@ -27,3 +28,4 @@
 /WeddingShare/wwwroot/images/custom_resources
 /WeddingShare/config/wedding-share.db.bak
 /WeddingShare/config/key-*.xml
+/WeddingShare/node_modules

@@ -69,22 +69,26 @@ namespace WeddingShare.Helpers.Dbup
                 // Protect any galleries without a secret key by forcing a new one
                 if (galleries != null && galleries.Any())
                 {
-                    foreach (var gallery in galleries.Where(gallery => string.IsNullOrWhiteSpace(gallery.SecretKey)))
+                    var hardenGallerySecurity = config.GetOrDefault(Constants.Security.HardenGallerySecurity, false);
+                    if (hardenGallerySecurity)
                     {
-                        try
+                        foreach (var gallery in galleries.Where(gallery => string.IsNullOrWhiteSpace(gallery.SecretKey)))
                         {
-                            if (gallery.Identifier.Equals("default", StringComparison.OrdinalIgnoreCase))
+                            try
                             {
-                                gallery.SecretKey = config.GetOrDefault(Settings.Basic.DefaultGallerySecretKey, PasswordHelper.GenerateGallerySecretKey());
-                            }
-                            else
-                            {
-                                gallery.SecretKey = PasswordHelper.GenerateGallerySecretKey();
-                            }
+                                if (gallery.Identifier.Equals("default", StringComparison.OrdinalIgnoreCase))
+                                {
+                                    gallery.SecretKey = config.GetOrDefault(Settings.Basic.DefaultGallerySecretKey, PasswordHelper.GenerateGallerySecretKey());
+                                }
+                                else
+                                {
+                                    gallery.SecretKey = PasswordHelper.GenerateGallerySecretKey();
+                                }
                             
-                            await database.EditGallery(gallery);
+                                await database.EditGallery(gallery);
+                            }
+                            catch { }
                         }
-                        catch { }
                     }
                 }
             }
