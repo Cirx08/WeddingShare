@@ -74,7 +74,7 @@ push_latest:
     - main
     - master
   script:
-    - docker buildx build --platform $BUILD_PLATFORMS --push -f $BUILD_DOCKERFILE .
+    - docker buildx build --tag $CI_REGISTRY_IMAGE:latest --platform $BUILD_PLATFORMS --push -f $BUILD_DOCKERFILE 
   needs:
     - test
     
