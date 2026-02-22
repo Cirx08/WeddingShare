@@ -1,0 +1,3 @@
+--
+-- Increase gallery item column size
+--
