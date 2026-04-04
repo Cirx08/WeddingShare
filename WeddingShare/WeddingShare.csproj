@@ -67,6 +67,7 @@
     <EmbeddedResource Include="SqlScripts\MySQL\012 - Add Resource Owners.sql" />
     <EmbeddedResource Include="SqlScripts\MySQL\016 - Add All Gallery.sql" />
     <EmbeddedResource Include="SqlScripts\MySQL\015 - Add Gallery Identifier.sql" />
+    <EmbeddedResource Include="SqlScripts\MySQL\021 - Increase Filename Column.sql" />
     <EmbeddedResource Include="SqlScripts\MySQL\020 - Add Free User Level.sql" />
     <EmbeddedResource Include="SqlScripts\MySQL\019 - Add Likes Table.sql" />
     <EmbeddedResource Include="SqlScripts\SQLite\004 - Add 2FA.sql" />
@@ -92,6 +93,7 @@
     <EmbeddedResource Include="SqlScripts\SQLite\019 - Add Likes Table.sql" />
     <EmbeddedResource Include="SqlScripts\SQLite\018 - Add User Secret.sql" />
     <EmbeddedResource Include="SqlScripts\SQLite\020 - Add Free User Level.sql" />
+    <EmbeddedResource Include="SqlScripts\SQLite\021 - Increase Filename Column.sql" />
   </ItemGroup>
 
   <ItemGroup>

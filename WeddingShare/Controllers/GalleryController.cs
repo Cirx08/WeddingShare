@@ -521,7 +521,7 @@ namespace WeddingShare.Controllers
                 {
                     secretKey = secretKey ?? string.Empty;
 
-                    if (!secretKey.Equals(gallery.SecretKey))
+                    if (!secretKey.Equals(gallery.SecretKey ?? string.Empty))
                     {
                         return Json(new { success = false, message = _localizer["Failed_Download_Gallery_Invalid_Key"].Value });
                     }
