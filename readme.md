@@ -2,7 +2,7 @@
 
 <br />![Banner](banner.png)
 
-# Notice - WeddingShare is Rebranding to Memtly
+## WeddingShare is Rebranding to Memtly
 
 Due to high demand from non-wedding events `WeddingShare` is rebranding to `Memtly`.
 
@@ -13,8 +13,10 @@ To  check out the new look please visit the new repository at - [Memtly.Communit
 ### Why are we rebranding?
 We're doing this to be more generic whilst also taking  the opportunity to restructure and upgrade  the frontend and backend.
 
-For a full list of rebrand reasons you can visit - https://docs.memtly.com/docs/intro#why-rebrand--rename
+For a full list of rebrand reasons you can visit:
 
-# Memtly.Community
+https://docs.memtly.com/docs/intro#why-rebrand--rename
+
+## Memtly.Community
 
 https://github.com/Memtly/Memtly.Community
