@@ -1,6 +1,6 @@
 # WeddingShare
 
-<br />![Banner](banner.png)
+<br />![Banner](rebranding_banner.png)
 
 ## WeddingShare is Rebranding to Memtly
 
